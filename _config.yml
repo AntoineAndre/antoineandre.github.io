@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+remote_theme: fongandrew/hydeout
 
 # Setup
 title:            Hydeout
@@ -34,4 +35,3 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 
-remote_theme: fongandrew/hydeout
