@@ -12,6 +12,18 @@
     </a>
   {% endif %}
 
+  <a id="mail-link"
+  class="icon" title="mail" aria-label="Mail"
+  href="mailto:antoine.andre@femto-st.fr">
+ {% include svg/mail.svg %}
+  </a>
+
+  <a id="linkedin-link"
+  class="icon" title="linkedin" aria-label="linkedin"
+  href="https://www.linkedin.com/in/andreantoine/">
+ {% include svg/linkedinLogo.svg %}
+  </a>
+
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">
