@@ -23,7 +23,7 @@ Development of a tool to generate different types of periodic patterns.
 Application is available as a <b> .apk </b> file to download <A HREF="https://cloud.femto-st.fr/nextcloud/index.php/s/3ktPEaos6eeBfTd">here</A>.
 <table>
   <tr>
-    <td><img src="androidApp1.PNG" style="width:200px;height:322px;"> </td>
+    <td><img src="https://drive.google.com/open?id=1K5fQJpaX1I37d1XhDmLbTicbIwvtzD9y" style="width:200px;height:322px;"> </td>
     <td><img src="androidApp2.PNG" style="width:200px;height:322px;"> </td>
   </tr>
 </table>
