@@ -4,15 +4,14 @@ title: About
 sidebar_link: true
 ---
 
+Graduated from the engineer school ENSMM, I started my Ph.D. in the Micro and Nanorobotics team in the departement AS2M at Femto-St in October 2018.
 
-Diplômé de l'école d'ingénieur de l'ENSMM, j'ai commencé ma thèse au sein de l'équipe Nanorobotique du département AS2M de Femto-St en Octobre 2018.
+My Ph.D. focues on microrobotics and on the creation of an original vision-based metrologic tool to control positions with a nanometric accuracy by using phase-based patterns.
 
-Mon doctorat porte sur la microrobotique et sur l'élaboration d'un système de métrologie et de contrôle de position de robots utilisant le système de mire. 
+Computer-vision is a powerful tool to study nanometric displacements since it is contacltess. However most of computer-vision positioning methods relie on pixelic measure and are therefore limited by resolution of the camera, lens choice etc.
 
-La vision par ordinateur est un outil très puissant pour étudier les terminaisons de robots ou directement les pièces manipulées car sans contact. Cependant cette méthode, utilisée telle quelle repose sur une mesure pixelique et donc dépendant de la résolution de l'appareil d'acquisition. 
+With this original method based on periodic patterns (first developped by Dr. Sunkalo, Dr. Laurent and Dr. Sandoz), subpixelic positioning can be achieve by studying the phase of the pattern. This method allows to position with nanometric resolution in translation an micro radian resolution in rotation pattern in the (x, y, theta) plane.
 
-A l'aide du système de mire (développé entre autres par M. Dembele, M. Laurent et M. Sandoz), nous pouvons quantifier le positionnement de manière subpixelique en se basant sur la phase de la mire. Cette technique permet de repérer avec une précision nanométrique des mires dans le plan (deux translations et une rotation).
+The goal of my Ph.D. is to develop this tool in a more mature way in order to diffuse it (since this tool is already used by 5 researchers and is growing in use). My goal is also to extend the measure to 6DOF with holographic microscopy.
 
-Le but de ma thèse est de faire intervenir l'outil d'holographie numérique qui permet de quantifier la profondeur d'un objet pour le porter au positionnement de robots selon les six degrés de libertés. 
-
-Pour m'épauler dans ce doctorat, Guillaume Laurent, Patrick Sandoz et MAxime Jacquot m'apporteront l'aide nécessaire dans la thèse tripartite que j'entame à savoir : la robotique, l'utilisation des mires et l'holographie numérique.
+This work is supported by my thesis directors, Guillaume Laurent, Patrick Sandoz and Maxime Jacquot who give me necessary help to achieve presented goals of the thesis.
