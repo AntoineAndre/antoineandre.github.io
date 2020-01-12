@@ -49,6 +49,9 @@ category : resume
 </p>
 
 <dl>
+  <dt> Nov. 2018 - Jan. 2020 </dt>
+    <dd> Stereo vision teaching at ENSMM </dd>
+    <dd> Goal of given lectures is to teach master students how to use epipolar geometry with practical cases made in Matlab </dd>
   <dt> Feb. 2018 - Jul 2018 </dt>
     <dd> End of studies project in research laboratory at <A HREF = "https://www.dendai.ac.jp/en"> Tokyo Denki University </A>. </dd>
     <dd> Compliant command based on Serial Elastic Actuators for prostethics hands in order to improve fragile objects grasping </dd>
