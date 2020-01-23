@@ -15,3 +15,5 @@ With this original method based on periodic patterns (first developped by Dr. Su
 The goal of my Ph.D. is to develop this tool in a more mature way in order to diffuse it (since this tool is already used by 5 researchers and is growing in use). My goal is also to extend the measure to 6DOF with holographic microscopy.
 
 This work is supported by my thesis directors, Guillaume Laurent, Patrick Sandoz and Maxime Jacquot who give me necessary help to achieve presented goals of the thesis.
+
+<dd> <img src="profilePicture.jpg"> </dd>
