@@ -45,7 +45,6 @@ body {
     font-size: $large-font-size;
     margin-top: 0;
     margin-bottom: $heading-spacing;
-
     .back-arrow { margin-right: 0.5rem; }
   }
 }
@@ -104,6 +103,8 @@ body {
 ----------------------------------------------------------- */
 
 .home #sidebar {
+  background-image: url("https://antoineandre.github.io/category/femtoThumbnailBackground.png");
+  background-size: cover;
 
   // Center sidebar content
   text-align: center;
@@ -132,78 +133,78 @@ body {
 }
 
 
-/* -----------------------------------------------------------
-  Tablet / Desktop view
------------------------------------------------------------ */
+// /* -----------------------------------------------------------
+//   Tablet / Desktop view
+// ----------------------------------------------------------- */
 
-@media (min-width: $large-breakpoint) {
-  body {
-    flex-direction: row;
-    height: 100vh;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    > * {
-      max-height: 100vh; 
-      overflow-y: auto; 
-      -webkit-overflow-scrolling: touch;
-    }
-  }
+// @media (min-width: $large-breakpoint) {
+//   body {
+//     flex-direction: row;
+//     height: 100vh;
+//     overflow-y: auto;
+//     -webkit-overflow-scrolling: touch;
+//     > * {
+//       max-height: 100vh; 
+//       overflow-y: auto; 
+//       -webkit-overflow-scrolling: touch;
+//     }
+//   }
 
-  /* Undo mobile CSS */
+//   /* Undo mobile CSS */
 
-  #sidebar, .home #sidebar {
-    width: $sidebar-width;
-    text-align: left;
+//   #sidebar, .home #sidebar {
+//     width: $sidebar-width;
+//     text-align: left;
 
-    > *:last-child {
-      margin-bottom: 0;
-    }
-  }
+//     > *:last-child {
+//       margin-bottom: 0;
+//     }
+//   }
 
-  #sidebar {
-    .site-title {
-      font-size: 3.25rem;
-      .back-arrow { display: none; }
-    }
+//   #sidebar {
+//     .site-title {
+//       font-size: 3.25rem;
+//       .back-arrow { display: none; }
+//     }
 
-    p.lead, header ~ * {
-      display: block;
-    }
+//     p.lead, header ~ * {
+//       display: block;
+//     }
 
-    header ~ nav {
-      display: flex;
-    }
-  }
+//     header ~ nav {
+//       display: flex;
+//     }
+//   }
 
-  .index #sidebar { margin-bottom: 0; }
+//   .index #sidebar { margin-bottom: 0; }
 
-  // Make entire container background white to contrast against sidebar
-  .container {
-    background: $body-bg;
-    color: $body-color;
-    padding: $section-spacing * 2
-             $section-spacing * 2
-             0;
-    height: 100vh;
+//   // Make entire container background white to contrast against sidebar
+//   .container {
+//     background: $body-bg;
+//     color: $body-color;
+//     padding: $section-spacing * 2
+//              $section-spacing * 2
+//              0;
+//     height: 100vh;
 
-    > header {
-      color: $heading-color;
-      margin: 0;
-      h1, h2 {
-        color: inherit;
+//     > header {
+//       color: $heading-color;
+//       margin: 0;
+//       h1, h2 {
+//         color: inherit;
 
-        &:last-child {
-          margin-bottom: $heading-spacing;
-        }
-      }
-    }
+//         &:last-child {
+//           margin-bottom: $heading-spacing;
+//         }
+//       }
+//     }
 
-    > * {
-      max-width: 38rem;
-      padding: 0;
-    }
-  }
-}
+//     > * {
+//       max-width: 38rem;
+//       padding: 0;
+//     }
+//   }
+// }
 
 
 /* -----------------------------------------------------------
@@ -253,7 +254,7 @@ body {
 
   @media (min-width: $large-breakpoint) {
     margin-left: -0.25em;
-    justify-content: flex-start;
+    justify-content: center;
   }
 }
 
@@ -276,13 +277,13 @@ body {
   bottom of the sidebar in tablets and up.
 ----------------------------------------------------------- */
 
-@if $sidebar-sticky {
-  @media (min-width: $large-breakpoint) {
-    body {
-      align-items: flex-end;
-    }
-  }
-}
+// @if $sidebar-sticky {
+//   @media (min-width: $large-breakpoint) {
+//     body {
+//       align-items: flex-end;
+//     }
+//   }
+// }
 
 
 /* -----------------------------------------------------------
