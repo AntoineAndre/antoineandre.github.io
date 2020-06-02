@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Map Appartements targeted</title>
+    <title>map apprtements visite</title>
        <!-- Map -->
    <meta charset="utf-8">
    <!-- Nous chargeons les fichiers CDN de Leaflet. Le CSS AVANT le JS -->
@@ -17,17 +17,45 @@
 
        // Nous initialisons une liste de marqueurs
        var apparts = {
-            "Segerad": { "lat": 47.243867, "lon": 6.047605, "text": '<p>Segerad<br /> <a href="https://segerad.fr/property/bregille-t3-64-m2-residence-2011/">T3 64 m² 687€ </a> </p> <p> <img src="https://segerad.fr/wp-content/uploads/2018/05/DOMAINE-770x386.jpg" width="150"> </p>'},
-            "Segerad2": { "lat": 47.244012, "lon": 6.046057, "text": '<p>Segerad<br /> <a href="https://segerad.fr/property/bregille-t3-56-m2-residence-2013/">T3 56 m² 631€ </a> </p> <p> <img src="https://segerad.fr/wp-content/uploads/2017/06/PHOTO-RECTIFIEE.png" width="150"> </p>'},
-            "Nexity": { "lat": 47.241560, "lon": 6.047695, "text": '<p>Nexity<br /> <a href="https://www.nexity.fr/location/FL0602295">T2 64 m² 543€ </a> </p> <p> <img src="https://media2-js.nexity.fr/1_539054.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg" width="150"> </p>'},
-            "Nexity2": { "lat": 47.241338, "lon": 6.048411, "text": '<p>Nexity<br /> <a href="https://www.nexity.fr/location/FL0659145">T2 64 m² 506€ </a> </p> <p> <img src="https://media2-js.nexity.fr/1_539038.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg" width="150"> </p>'},
-            "Nexity3": { "lat": 47.250251, "lon": 6.059861, "text": '<p>Nexity<br /> <a href="https://www.nexity.fr/location/FL0653161">T2 64 m² 515€ </a> </p> <p> <img src="https://media2-js.nexity.fr/1_509406.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg" width="150"> </p>'},
-            "Nexity4": { "lat": 47.244497, "lon": 6.050129, "text": '<p>Nexity<br /> <a href="https://www.nexity.fr/location/FL0650622">T3 68 m² 655€ </a> </p> <p> <img src="https://media2-js.nexity.fr/1_968638.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg" width="150"> </p>'},
-            "ImmoBenoit": { "lat": 47.251698, "lon": 6.060177, "text": '<p>Cabinet Benoit<br /> <a href="https://www.immobilier-benoit.com/appartement_quartier-bregille_besancon_3_pieces_location_5399.html">T3 54 m² 625€ </a> </p> <p> <img src="https://www.immobilier-benoit.com/geoloc_ressources_immofacile/31059407_2.jpg" width="150"> </p>'},
-            "ImmoBenoit2": { "lat": 47.245729, "lon": 6.055246, "text": '<p>Cabinet Benoit<br /> <a href="https://www.immobilier-benoit.com/appartement_quartier-bregille_besancon_3_pieces_location_4295.html">T3 61 m² 610€ </a> </p> <p> <img src="https://www.immobilier-benoit.com/geoloc_ressources_immofacile/31058546_3.jpg" width="150"> </p>'},
-            "Bersot": { "lat": 47.249591, "lon": 6.009047, "text": '<p>Immobilier Bersot<br /> <a href="https://www.bersot.net/detail/ref/2564/type_transaction/Location/lieu/besancon/type_bien/Appartement/budget_min/0/budget_max/0.html">T3 65 m² 600€ </a> </p> <p> <img src="https://www.bersot.net/pages/immo/images/location-besancon-appartement-t3-quartier-st-claude-avec-balcon-ds5vn.jpg" width="150"> </p>'},
-            "Aici": { "lat": 47.257969, "lon": 6.021015, "text": '<p>Aici<br /> <a href="http://www.aici-immobilier.fr/offre/17460-appartement-f4-besancon-quartier-saint-claude">T3 69 m² 600€ </a> </p> <p> <img src="http://www.aici-immobilier.fr/uploads/offres/thumb_w650h340zc1q95__17460-1.jpg" width="150"> </p>'},
+            "Segerad": { "lat": 47.243867, "lon": 6.047605, "text": '<p>Segerad<br /> <a href="https://segerad.fr/property/bregille-t3-64-m2-residence-2011/">T3 64 m² 687€ </a> </p> <p> <img src="https://segerad.fr/wp-content/uploads/2018/05/DOMAINE-770x386.jpg" width="150"> </p>', "visite": 0},
+            "Segerad2": { "lat": 47.244012, "lon": 6.046057, "text": '<p>Segerad<br /> <a href="https://segerad.fr/property/bregille-t3-56-m2-residence-2013/">T3 56 m² 631€ </a> </p> <p> <img src="https://segerad.fr/wp-content/uploads/2017/06/PHOTO-RECTIFIEE.png" width="150"> </p>', "visite": 0},
+            "Nexity": { "lat": 47.241560, "lon": 6.047695, "text": '<p>Nexity <b> pas louable </b> <br /> <a href="https://www.nexity.fr/location/FL0602295">T2 64 m² 543€ </a> </p> <p> <img src="https://media2-js.nexity.fr/1_539054.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg" width="150"> </p>', "visite": 3},
+            "Nexity2": { "lat": 47.241338, "lon": 6.048411, "text": '<p>Nexity <b> pas louable </b> <br /> <a href="https://www.nexity.fr/location/FL0659145">T2 64 m² 506€ </a> </p> <p> <img src="https://media2-js.nexity.fr/1_539038.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg" width="150"> </p>', "visite": 3},
+            "Nexity3": { "lat": 47.250251, "lon": 6.059861, "text": '<p>Nexity <b> pas louable </b> <br /> <a href="https://www.nexity.fr/location/FL0653161">T2 64 m² 515€ </a> </p> <p> <img src="https://media2-js.nexity.fr/1_509406.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg" width="150"> </p>', "visite": 3},
+            "Nexity4": { "lat": 47.247282, "lon": 6.042238, "text": '<p>Nexity <b> visité </b> <br /> <a href="https://www.nexity.fr/location/FL0650622">T3 68 m² 655€ </a> </p> <p> <img src="https://media2-js.nexity.fr/1_968638.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg" width="150"> </p>', "visite": 1},
+            "Nexity5": { "lat": 47.255218, "lon": 6.013217, "text": '<p>Nexity <b> visité </b> <br /> <a href="https://www.nexity.fr/location/FL0653709">T3 55 m² 654€ </a> </p> <p> <img src="https://media2-js.nexity.fr/1_1370083.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg" width="150"> </p>', "visite": 1},
+            "ImmoBenoit": { "lat": 47.251698, "lon": 6.060177, "text": '<p>Cabinet Benoit<br /> <a href="https://www.immobilier-benoit.com/appartement_quartier-bregille_besancon_3_pieces_location_5399.html">T3 54 m² 625€ </a> </p> <p> <img src="https://www.immobilier-benoit.com/geoloc_ressources_immofacile/31059407_2.jpg" width="150"> </p>', "visite": 0},
+            "ImmoBenoit2": { "lat": 47.245729, "lon": 6.055246, "text": '<p>Cabinet Benoit<br /> <a href="https://www.immobilier-benoit.com/appartement_quartier-bregille_besancon_3_pieces_location_4295.html">T3 61 m² 610€ </a> </p> <p> <img src="https://www.immobilier-benoit.com/geoloc_ressources_immofacile/31058546_3.jpg" width="150"> </p>', "visite": 0},
+            "Bersot": { "lat": 47.249591, "lon": 6.009047, "text": '<p>Immobilier Bersot<br /> <a href="https://www.bersot.net/detail/ref/2564/type_transaction/Location/lieu/besancon/type_bien/Appartement/budget_min/0/budget_max/0.html">T3 65 m² 600€ </a> </p> <p> <img src="https://www.bersot.net/pages/immo/images/location-besancon-appartement-t3-quartier-st-claude-avec-balcon-ds5vn.jpg" width="150"> </p>', "visite": 0},
+            "Aici": { "lat": 47.257969, "lon": 6.021015, "text": '<p>Aici<br /> <a href="http://www.aici-immobilier.fr/offre/17460-appartement-f4-besancon-quartier-saint-claude">T3 69 m² 600€ </a> </p> <p> <img src="http://www.aici-immobilier.fr/uploads/offres/thumb_w650h340zc1q95__17460-1.jpg" width="150"> </p>', "visite": 0},
        };
+
+       var greenIcon = new L.Icon({
+            iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+
+        var redIcon = new L.Icon({
+            iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+
+        var blackIcon = new L.Icon({
+            iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
 
        // Fonction d'initialisation de la carte
        function initMap() {
@@ -43,7 +71,16 @@
 
             // Nous parcourons la liste des apparts
             for (mAppart in apparts) {
-                    var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon]).addTo(macarte);
+                    if (apparts[mAppart].visite == 0){
+                        var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: redIcon}).addTo(macarte);
+                    }else if (apparts[mAppart].visite == 1){
+                        var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: greenIcon}).addTo(macarte);
+                    }
+                    else{
+                        var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: blackIcon}).addTo(macarte);
+                    }
+
+
                     marker.bindPopup(mAppart);
                     marker.bindPopup(apparts[mAppart].text);
             }
