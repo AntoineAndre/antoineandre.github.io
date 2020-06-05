@@ -106,7 +106,10 @@
             for(var i = 0; i < json.appartements.length; i++) {
                 var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: redIcon}).addTo(macarte);
                 marker.bindPopup(i);
-                marker.bindPopup(json.appartements[i].agence);
+                
+		var description = '<p>' + json.appartements[i].agence + '</p>';
+		description += '<br /> ' + '<a href=' + json.appartements[i].webLink + '>' + json.appartements[i].description + '</a>'; 
+		marker.bindPopup(description);
             }
             })
             .catch(function(error) {
