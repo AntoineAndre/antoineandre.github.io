@@ -117,6 +117,7 @@
 		
                 marker.bindPopup(i);
 		var description = '<p>' + json.appartements[i].agence + '</p>';
+		description += '<b>' + json.appartements[i].dispo + '</b>';
 		description += '<br /> ' + '<a href=' + json.appartements[i].webLink + '>' + json.appartements[i].description + '</a>'; 
 		description += '</p> <p> <img src=' + json.appartements[i].thumbnail + ' width="150"> </p>';
 		marker.bindPopup(description);
