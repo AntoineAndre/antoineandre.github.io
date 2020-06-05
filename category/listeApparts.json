@@ -61,7 +61,7 @@
         "agence": "Nexity",
         "dispo": "visité, mais pas top",
         "webLink": "https://www.nexity.fr/location/FL0650622",
-        "description": ">T3 68 m² 655€ ",
+        "description": "T3 68 m² 655€ ",
         "thumbnail": "https://media2-js.nexity.fr/1_968638.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg",
         "etatVisite": 1
     },
@@ -72,7 +72,7 @@
         "agence": "Nexity",
         "dispo": "visité, sympa mais chambre mauve",
         "webLink": "https://www.nexity.fr/location/FL0653709",
-        "description": ">T3 55 m² 654€ ",
+        "description": "T3 55 m² 654€ ",
         "thumbnail": "https://media2-js.nexity.fr/1_1370083.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg",
         "etatVisite": 1
     },
@@ -83,7 +83,7 @@
         "agence": "Nexity",
         "dispo": "",
         "webLink": "https://www.nexity.fr/location/FL0649557",
-        "description": ">T3 60 m² 724€ ",
+        "description": "T3 60 m² 724€ ",
         "thumbnail": "https://media2-js.nexity.fr/1_449038.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg",
         "etatVisite": 0
     },
@@ -94,7 +94,7 @@
         "agence": "Cabinet Benoit",
         "dispo": "déjà loué ",
         "webLink": "https://www.immobilier-benoit.com/appartement_quartier-bregille_besancon_3_pieces_location_5399.html",
-        "description": ">T3 54 m² 625€",
+        "description": "T3 54 m² 625€",
         "thumbnail": "https://www.immobilier-benoit.com/geoloc_ressources_immofacile/31059407_2.jpg",
         "etatVisite": 2
     },
@@ -105,8 +105,118 @@
         "agence": "Cabinet Benoit",
         "dispo": "déjà loué ",
         "webLink": "https://www.immobilier-benoit.com/appartement_quartier-bregille_besancon_3_pieces_location_5399.html",
-        "description": ">T3 54 m² 625€",
+        "description": "T3 54 m² 625€",
         "thumbnail": "https://www.immobilier-benoit.com/geoloc_ressources_immofacile/31059407_2.jpg",
         "etatVisite": 2
+    },
+    {
+        "name": "ImmoBenoit2",
+        "lat": 47.246252,
+        "lon": 6.056168,
+        "agence": "Cabinet Benoit",
+        "dispo": "A visiter avec locataire actuel",
+        "webLink": "https://www.immobilier-benoit.com/appartement_quartier-bregille_besancon_3_pieces_location_4295.html",
+        "description": "T3 61 m² 610€ ",
+        "thumbnail": "https://www.immobilier-benoit.com/geoloc_ressources_immofacile/31058546_1.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "ImmoBenoit3",
+        "lat": 47.233658,
+        "lon": 5.974611,
+        "agence": "Cabinet Benoit",
+        "dispo": "",
+        "webLink": "https://www.immobilier-benoit.com/appartement_quartier-tilleroyes_besancon_3_pieces_location_2412.html",
+        "description": "T3 69 m² 710€ ",
+        "thumbnail": "https://www.immobilier-benoit.com/geoloc_ressources_immofacile/31058410_1.jpg",
+        "etatVisite": 0
+    },
+    {
+        "name": "ImmoBenoit4",
+        "lat": 47.244353,
+        "lon": 6.046619,
+        "agence": "Cabinet Benoit",
+        "dispo": "pas encore dispo à la location, ok fin aout",
+        "webLink": "",
+        "description": " ",
+        "thumbnail": " ",
+        "etatVisite": 0
+    },
+    {
+        "name": "Bersot",
+        "lat": 47.249591,
+        "lon": 6.009047,
+        "agence": "Immobilier Bersot",
+        "dispo": "",
+        "webLink": "https://www.bersot.net/detail/ref/2564/type_transaction/Location/lieu/besancon/type_bien/Appartement/budget_min/0/budget_max/0.html",
+        "description": "T3 65 m² 600€",
+        "thumbnail": "https://www.bersot.net/pages/immo/images/location-besancon-appartement-t3-quartier-st-claude-avec-balcon-ds5vn.jpg",
+        "etatVisite": 0
+    },
+    {
+        "name": "Aici",
+        "lat": 47.257969,
+        "lon": 6.021015,
+        "agence": "Aici",
+        "dispo": "A visiter avec locataire actuel",
+        "webLink": "http://www.aici-immobilier.fr/offre/17460-appartement-f4-besancon-quartier-saint-claude",
+        "description": "T3 69 m² 600€ ",
+        "thumbnail": "http://www.aici-immobilier.fr/uploads/offres/thumb_w650h340zc1q95__17460-1.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "Aici2",
+        "lat": 47.232660,
+        "lon": 5.993791,
+        "agence": "Aici",
+        "dispo": "A visiter 08/06 8h15",
+        "webLink": "http://www.aici-immobilier.fr/offre/17393-appartement-f2-besancon-quartier-st-ferjeux",
+        "description": "T2 50 m² 460€ ",
+        "thumbnail": "http://www.aici-immobilier.fr/uploads/offres/thumb_w650h340zc1q95__17393-1.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "Aici3",
+        "lat": 47.245862,
+        "lon": 6.033680,
+        "agence": "Aici",
+        "dispo": "A visiter 08/06 8h15",
+        "webLink": "http://www.aici-immobilier.fr/offre/17569-appartement-f4-besancon-quartier-mouillere",
+        "description": "T3 65 m² 640€",
+        "thumbnail": "http://www.aici-immobilier.fr/uploads/offres/thumb_w650h340zc1q95__17569-1.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "trilogie",
+        "lat": 47.258645,
+        "lon": 5.987619,
+        "agence": "Trilogie",
+        "dispo": "En attente retour dossier candidature",
+        "webLink": "http://trilogie.fr/location/appartement-3-pieces-besancon-8421/",
+        "description": "T3 59 m² 592€ ",
+        "thumbnail": "http://trilogie.fr/wp/wp-content/uploads/2020/06/25Y08100-8421-006-500x335.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "Sogeprim",
+        "lat": 47.257968,
+        "lon": 5.986481,
+        "agence": "Sogeprim",
+        "dispo": "En attente retour dossier candidature",
+        "webLink": "https://www.sogeprim.fr/bien-a-louer/location-t3-besancon-montboucons-9766/",
+        "description": "T3 63 m² 595€ ",
+        "thumbnail": "https://www.sogeprim.fr/contenu/uploads/2019/12/BOU-40-location-appartement-f3-4-572x429.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "Vauban",
+        "lat": 47.255547,
+        "lon": 6.041355,
+        "agence": "Vauban",
+        "dispo": "A visiter avec locataire actuel",
+        "webLink": " ",
+        "description": "T2 50m² 495€ ",
+        "thumbnail": " ",
+        "etatVisite": 3
     }
 ]}
