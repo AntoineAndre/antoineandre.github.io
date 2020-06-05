@@ -104,7 +104,7 @@
             })
             .then(function(json) {
             for(var i = 0; i < json.appartements.length; i++) {
-                var marker = L.marker([47.243867, 6.047605], {icon: redIcon}).addTo(macarte);
+                var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: redIcon}).addTo(macarte);
                 marker.bindPopup(i);
                 marker.bindPopup(json.appartements[i].agence);
             }
