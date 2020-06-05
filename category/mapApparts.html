@@ -39,7 +39,6 @@
        };
 
 
-    var myList = document.querySelector('ul');
 
 
        var greenIcon = new L.Icon({
@@ -79,35 +78,6 @@
             shadowSize: [41, 41]
         });
 
-
-        fetch('listeApparts5.json')
-            .then(function(response) {
-            if (!response.ok) {
-                throw new Error("HTTP error, status = " + response.status);
-            }
-            return response.json();
-            })
-            .then(function(json) {
-            for(var i = 0; i < json.appartements.length; i++) {
-
-                var listItem = document.createElement('li');
-                listItem.innerHTML = '<strong>' + json.appartements[i].name + '</strong>';
-                myList.appendChild(listItem);
-
-
-                // var marker = L.marker([json.appartements.lat, json.appartements.lon], {icon: redIcon}).addTo(macarte);
-                // marker.bindPopup(mAppart);
-                // marker.bindPopup(json.appartements.agence);
-            }
-            })
-            .catch(function(error) {
-            var p = document.createElement('p');
-            p.appendChild(
-                document.createTextNode('Error: ' + error.message)
-            );
-            document.body.insertBefore(p, myList);
-        });
-
        // Fonction d'initialisation de la carte
        function initMap() {
             // Créer l'objet "macarte" et l'insèrer dans l'élément HTML qui a l'ID "map"
@@ -120,24 +90,55 @@
             maxZoom: 20
             }).addTo(macarte);
 
-            // Nous parcourons la liste des apparts
-            for (mAppart in apparts) {
-                if (apparts[mAppart].etatVisite == 0){
-                    var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: redIcon}).addTo(macarte);
-                }else if (apparts[mAppart].etatVisite == 1){
-                    var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: greenIcon}).addTo(macarte);
-                }
-                else if (apparts[mAppart].etatVisite == 3){
-                    var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: blackIcon}).addTo(macarte);
-                }
-                else{
-                    var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: orangeIcon}).addTo(macarte);
-                }
 
 
-                marker.bindPopup(mAppart);
-                marker.bindPopup(apparts[mAppart].text);
+
+            var myList = document.querySelector('ul');
+
+            fetch('listeApparts.json')
+            .then(function(response) {
+            if (!response.ok) {
+                throw new Error("HTTP error, status = " + response.status);
             }
+            return response.json();
+            })
+            .then(function(json) {
+            for(var i = 0; i < json.appartements.length; i++) {
+                var marker = L.marker([json.appartements.lat, json.appartements.lon], {icon: redIcon}).addTo(macarte);
+                marker.bindPopup(mAppart);
+                marker.bindPopup(json.appartements.agence);
+            }
+            })
+            .catch(function(error) {
+            var p = document.createElement('p');
+            p.appendChild(
+                document.createTextNode('Error: ' + error.message)
+            );
+            document.body.insertBefore(p, myList);
+            });
+
+
+
+
+
+            // // Nous parcourons la liste des apparts
+            // for (mAppart in apparts) {
+            //     if (apparts[mAppart].etatVisite == 0){
+            //         var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: redIcon}).addTo(macarte);
+            //     }else if (apparts[mAppart].etatVisite == 1){
+            //         var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: greenIcon}).addTo(macarte);
+            //     }
+            //     else if (apparts[mAppart].etatVisite == 3){
+            //         var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: blackIcon}).addTo(macarte);
+            //     }
+            //     else{
+            //         var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: orangeIcon}).addTo(macarte);
+            //     }
+
+
+            //     marker.bindPopup(mAppart);
+            //     marker.bindPopup(apparts[mAppart].text);
+            // }
        }
 
        window.onload = function(){
@@ -156,7 +157,5 @@
     <div id="map">
 	<!-- Ici s'affichera la carte -->
     </div>
-	  <ul>
-	  </ul>
   </body>
 </html>
