@@ -34,9 +34,13 @@
             "Aici2": { "lat": 47.232660, "lon": 5.993791, "text": '<p>Aici<br /> <a href="http://www.aici-immobilier.fr/offre/17393-appartement-f2-besancon-quartier-st-ferjeux">T2 50 m² 460€ </a> <br /> A visiter 08/06 8h15 </p> <p> <img src="http://www.aici-immobilier.fr/uploads/offres/thumb_w650h340zc1q95__17393-1.jpg" width="150"> </p>', "visite": 4},
             "Aici3": { "lat": 47.245862, "lon": 6.033680, "text": '<p>Aici<br /> <a href="http://www.aici-immobilier.fr/offre/17569-appartement-f4-besancon-quartier-mouillere">T3 65 m² 640€ </a> <br /> A visiter 08/06 8h15 </p> <p> <img src="http://www.aici-immobilier.fr/uploads/offres/thumb_w650h340zc1q95__17569-1.jpg" width="150"> </p>', "visite": 4},
             "trilogie": { "lat": 47.258645, "lon": 5.987619, "text": '<p>Trilogie<br /> <a href="http://trilogie.fr/location/appartement-3-pieces-besancon-8421/">T3 59 m² 592€ </a> </p> <p> <img src="http://trilogie.fr/wp/wp-content/uploads/2020/06/25Y08100-8421-006-500x335.jpg" width="150"> </p>', "visite": 4},
-            "Vauban": { "lat": 47.255547, "lon": 6.041355, "text": '<p>Vauban <br /> T2 50m² 495€ </p> <br /> à visiter avec le locataire', "visite": 0},
             "Sogeprim": { "lat": 47.257968, "lon": 5.986481, "text": '<p>Sogeprim<br /> <a href="https://www.sogeprim.fr/bien-a-louer/location-t3-besancon-montboucons-9766/">T3 63 m² 595€ </a> </p> <p> <img src="https://www.sogeprim.fr/contenu/uploads/2019/12/BOU-40-location-appartement-f3-4-572x429.jpg" width="150"> </p>', "visite": 4},
+            "Vauban": { "lat": 47.255547, "lon": 6.041355, "text": '<p>Vauban <br /> T2 50m² 495€ </p> <br /> à visiter avec le locataire', "visite": 0},
        };
+
+
+    var myList = document.querySelector('ul');
+
 
        var greenIcon = new L.Icon({
             iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
@@ -75,6 +79,35 @@
             shadowSize: [41, 41]
         });
 
+
+        fetch('listeApparts.json')
+            .then(function(response) {
+            if (!response.ok) {
+                throw new Error("HTTP error, status = " + response.status);
+            }
+            return response.json();
+            })
+            .then(function(json) {
+            for(var i = 0; i < json.appartements.length; i++) {
+
+                var listItem = document.createElement('li');
+                listItem.innerHTML = '<strong>' + json.appartements[i].name + '</strong>';
+                myList.appendChild(listItem);
+
+
+                // var marker = L.marker([json.appartements.lat, json.appartements.lon], {icon: redIcon}).addTo(macarte);
+                // marker.bindPopup(mAppart);
+                // marker.bindPopup(json.appartements.agence);
+            }
+            })
+            .catch(function(error) {
+            var p = document.createElement('p');
+            p.appendChild(
+                document.createTextNode('Error: ' + error.message)
+            );
+            document.body.insertBefore(p, myList);
+        });
+
        // Fonction d'initialisation de la carte
        function initMap() {
             // Créer l'objet "macarte" et l'insèrer dans l'élément HTML qui a l'ID "map"
@@ -89,21 +122,21 @@
 
             // Nous parcourons la liste des apparts
             for (mAppart in apparts) {
-                    if (apparts[mAppart].visite == 0){
-                        var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: redIcon}).addTo(macarte);
-                    }else if (apparts[mAppart].visite == 1){
-                        var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: greenIcon}).addTo(macarte);
-                    }
-                    else if (apparts[mAppart].visite == 3){
-                        var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: blackIcon}).addTo(macarte);
-                    }
-                    else{
-                        var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: orangeIcon}).addTo(macarte);
-                    }
+                if (apparts[mAppart].etatVisite == 0){
+                    var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: redIcon}).addTo(macarte);
+                }else if (apparts[mAppart].etatVisite == 1){
+                    var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: greenIcon}).addTo(macarte);
+                }
+                else if (apparts[mAppart].etatVisite == 3){
+                    var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: blackIcon}).addTo(macarte);
+                }
+                else{
+                    var marker = L.marker([apparts[mAppart].lat, apparts[mAppart].lon], {icon: orangeIcon}).addTo(macarte);
+                }
 
 
-                    marker.bindPopup(mAppart);
-                    marker.bindPopup(apparts[mAppart].text);
+                marker.bindPopup(mAppart);
+                marker.bindPopup(apparts[mAppart].text);
             }
        }
 
