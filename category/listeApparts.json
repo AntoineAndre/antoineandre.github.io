@@ -218,5 +218,16 @@
         "description": "T2 50m² 495€ ",
         "thumbnail": " ",
         "etatVisite": 3
+    },
+    {
+        "name": "Sogeprim2",
+        "lat": 47.222368,
+        "lon": 5.943537,
+        "agence": "Sogeprim",
+        "dispo": "En attente dossier candidature",
+        "webLink": "https://www.sogeprim.fr/bien-a-louer/location-appartement-t3-besancon-hauts-de-chazal-9227/",
+        "description": "T3 62m² 495€ ",
+        "thumbnail": "https://www.sogeprim.fr/contenu/uploads/2020/02/DIK-8452-location-appartement-f3-572x386.jpg",
+        "etatVisite": 3
     }
 ]}
