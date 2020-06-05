@@ -1,0 +1,22 @@
+{ "appartements" : [
+    {
+        "name": "Segerad1",
+        "lat": 47.243867,
+        "lon": 6.047605,
+        "agence": "Segerad",
+        "webLink": "https://segerad.fr/property/bregille-t3-64-m2-residence-2011/",
+        "description": "T3 64 m² 687€",
+        "thumbnail": "https://segerad.fr/wp-content/uploads/2018/05/DOMAINE-770x386.jpg",
+        "etatVisite": 4
+    },
+    {
+        "name": "Segerad2",
+        "lat": 47.244012,
+        "lon": 6.046057,
+        "agence": "Segerad",
+        "webLink": "https://segerad.fr/property/bregille-t3-56-m2-residence-2013/",
+        "description": "T3 56 m² 631€",
+        "thumbnail": "https://segerad.fr/wp-content/uploads/2017/06/PHOTO-RECTIFIEE.png",
+        "etatVisite": 4
+    }
+]}
