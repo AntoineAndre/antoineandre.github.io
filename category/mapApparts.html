@@ -104,14 +104,15 @@
             })
             .then(function(json) {
             for(var i = 0; i < json.appartements.length; i++) {
+		var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon]).addTo(macarte);
 		if (json.appartements[i].etatVisite == 0){
-                    var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: redIcon}).addTo(macarte);
+                   marker.setIcon(redIcon);
 		}else if (json.appartements[i].etatVisite == 1){
-                    var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: greenIcon}).addTo(macarte);
+                   marker.setIcon(greenIcon);
 		}else if (json.appartements[i].etatVisite == 2){
-                    var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: blackIcon}).addTo(macarte);
+                   marker.setIcon(blackIcon);
 		}else if (json.appartements[i].etatVisite == 3){
-                    var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: orangeIcon}).addTo(macarte);
+                   marker.setIcon(orangeIcon);
 		}
 		
                 marker.bindPopup(i);
