@@ -104,11 +104,20 @@
             })
             .then(function(json) {
             for(var i = 0; i < json.appartements.length; i++) {
-                var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: redIcon}).addTo(macarte);
+		if (json.appartements[i].etatVisite == 0){
+                    var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: redIcon}).addTo(macarte);
+		}else if (json.appartements[i].etatVisite == 1){
+                    var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: greenIcon}).addTo(macarte);
+		}else if (json.appartements[i].etatVisite == 2){
+                    var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: blackIcon}).addTo(macarte);
+		}else if (json.appartements[i].etatVisite == 3){
+                    var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon], {icon: orangeIcon}).addTo(macarte);
+		}
+		
                 marker.bindPopup(i);
-                
 		var description = '<p>' + json.appartements[i].agence + '</p>';
 		description += '<br /> ' + '<a href=' + json.appartements[i].webLink + '>' + json.appartements[i].description + '</a>'; 
+		description += '</p> <p> <img src=' + json.appartements[i].thumbnail + ' width="150"> </p>';
 		marker.bindPopup(description);
             }
             })
