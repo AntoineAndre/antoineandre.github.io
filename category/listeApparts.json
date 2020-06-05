@@ -20,5 +20,93 @@
         "description": "T3 56 m² 631€",
         "thumbnail": "https://segerad.fr/wp-content/uploads/2017/06/PHOTO-RECTIFIEE.png",
         "etatVisite": 3
+    },
+    {
+        "name": "Nexity",
+        "lat": 47.241560,
+        "lon": 6.047695,
+        "agence": "Nexity",
+        "dispo": "pas louable",
+        "webLink": "https://www.nexity.fr/location/FL0602295",
+        "description": "T2 64 m² 543€ ",
+        "thumbnail": "https://media2-js.nexity.fr/1_539054.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg",
+        "etatVisite": 2
+    },
+    {
+        "name": "Nexity2",
+        "lat": 47.241338,
+        "lon": 6.048411,
+        "agence": "Nexity",
+        "dispo": "pas louable",
+        "webLink": "https://www.nexity.fr/location/FL0659145",
+        "description": "T2 64 m² 506€ ",
+        "thumbnail": "https://media2-js.nexity.fr/1_539038.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg",
+        "etatVisite": 2
+    },
+    {
+        "name": "Nexity3",
+        "lat": 47.250251,
+        "lon": 6.059861,
+        "agence": "Nexity",
+        "dispo": "pas louable",
+        "webLink": "https://www.nexity.fr/location/FL0653161",
+        "description": "T2 64 m² 515€ ",
+        "thumbnail": "https://media2-js.nexity.fr/1_509406.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg",
+        "etatVisite": 2
+    },
+    {
+        "name": "Nexity4",
+        "lat": 47.247282,
+        "lon": 6.042238,
+        "agence": "Nexity",
+        "dispo": "visité, mais pas top",
+        "webLink": "https://www.nexity.fr/location/FL0650622",
+        "description": ">T3 68 m² 655€ ",
+        "thumbnail": "https://media2-js.nexity.fr/1_968638.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg",
+        "etatVisite": 1
+    },
+    {
+        "name": "Nexity5",
+        "lat": 47.255218,
+        "lon": 6.013217,
+        "agence": "Nexity",
+        "dispo": "visité, sympa mais chambre mauve",
+        "webLink": "https://www.nexity.fr/location/FL0653709",
+        "description": ">T3 55 m² 654€ ",
+        "thumbnail": "https://media2-js.nexity.fr/1_1370083.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg",
+        "etatVisite": 1
+    },
+    {
+        "name": "Nexity6",
+        "lat": 47.241113,
+        "lon": 5.999058,
+        "agence": "Nexity",
+        "dispo": "",
+        "webLink": "https://www.nexity.fr/location/FL0649557",
+        "description": ">T3 60 m² 724€ ",
+        "thumbnail": "https://media2-js.nexity.fr/1_449038.jpg?maxWidth=1024&maxHeight=684&default_img=appartement.jpg",
+        "etatVisite": 0
+    },
+    {
+        "name": "ImmoBenoit",
+        "lat": 47.251698,
+        "lon": 6.060177,
+        "agence": "Cabinet Benoit",
+        "dispo": "déjà loué ",
+        "webLink": "https://www.immobilier-benoit.com/appartement_quartier-bregille_besancon_3_pieces_location_5399.html",
+        "description": ">T3 54 m² 625€",
+        "thumbnail": "https://www.immobilier-benoit.com/geoloc_ressources_immofacile/31059407_2.jpg",
+        "etatVisite": 2
+    },
+    {
+        "name": "ImmoBenoit",
+        "lat": 47.251698,
+        "lon": 6.060177,
+        "agence": "Cabinet Benoit",
+        "dispo": "déjà loué ",
+        "webLink": "https://www.immobilier-benoit.com/appartement_quartier-bregille_besancon_3_pieces_location_5399.html",
+        "description": ">T3 54 m² 625€",
+        "thumbnail": "https://www.immobilier-benoit.com/geoloc_ressources_immofacile/31059407_2.jpg",
+        "etatVisite": 2
     }
 ]}
