@@ -229,5 +229,38 @@
         "description": "T3 62m² 495€ ",
         "thumbnail": "https://www.sogeprim.fr/contenu/uploads/2020/02/DIK-8452-location-appartement-f3-572x386.jpg",
         "etatVisite": 3
+    },
+    {
+        "name": "trilogie2",
+        "lat": 47.224681,
+        "lon": 5.937426,
+        "agence": "Trilogie",
+        "dispo": "En attente dossier candidature",
+        "webLink": "http://trilogie.fr/location/appartement-3-pieces-besancon-8063/",
+        "description": "T3 57m² 625€ toutes charges comprises",
+        "thumbnail": "http://trilogie.fr/wp/wp-content/uploads/2020/06/25Y08100-8063-001.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "trilogie3",
+        "lat": 47.251447,
+        "lon": 6.003000,
+        "agence": "Trilogie",
+        "dispo": "En attente dossier candidature",
+        "webLink": "http://trilogie.fr/location/appartement-2-pieces-besancon-15000/",
+        "description": "T3 62m² 643€ toutes charges comprises",
+        "thumbnail": "http://trilogie.fr/wp/wp-content/uploads/2020/06/25Y08100-4819-001-500x335.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "trilogie4",
+        "lat": 47.251789,
+        "lon": 6.003654,
+        "agence": "Trilogie",
+        "dispo": "En attente dossier candidature",
+        "webLink": "http://trilogie.fr/location/appartement-2-pieces-besancon-4106/",
+        "description": "T2 45m² 540€",
+        "thumbnail": "http://trilogie.fr/wp/wp-content/uploads/2020/06/25Y08100-4106-001.jpg",
+        "etatVisite": 3
     }
 ]}
