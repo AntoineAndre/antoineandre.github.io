@@ -220,47 +220,47 @@
         "etatVisite": 3
     },
     {
-        "name": "Sogeprim2",
-        "lat": 47.222368,
-        "lon": 5.943537,
-        "agence": "Sogeprim",
-        "dispo": "En attente dossier candidature",
-        "webLink": "https://www.sogeprim.fr/bien-a-louer/location-appartement-t3-besancon-hauts-de-chazal-9227/",
-        "description": "T3 62m² 495€ ",
-        "thumbnail": "https://www.sogeprim.fr/contenu/uploads/2020/02/DIK-8452-location-appartement-f3-572x386.jpg",
-        "etatVisite": 3
+        "name": "Afedim",
+        "lat": 47.244123,
+        "lon": 6.010689,
+        "agence": "Afedim Gestion",
+        "dispo": " ",
+        "webLink": "https://www.leboncoin.fr/locations/1793700372.htm/",
+        "description": "T3 61m² 635€ ",
+        "thumbnail": "https://img5.leboncoin.fr/ad-image/8ae523b258a3ff1793235d691987605166256c68.jpg",
+        "etatVisite": 0
     },
     {
-        "name": "trilogie2",
-        "lat": 47.224681,
-        "lon": 5.937426,
-        "agence": "Trilogie",
-        "dispo": "En attente dossier candidature",
-        "webLink": "http://trilogie.fr/location/appartement-3-pieces-besancon-8063/",
-        "description": "T3 57m² 625€ toutes charges comprises",
-        "thumbnail": "http://trilogie.fr/wp/wp-content/uploads/2020/06/25Y08100-8063-001.jpg",
-        "etatVisite": 3
+        "name": "Mourey",
+        "lat": 47.219498,
+        "lon": 6.007806,
+        "agence": "Agence Mourey",
+        "dispo": " ",
+        "webLink": "http://www.agencemourey.com/details.php?ref=AFD0044840",
+        "description": "T3 59m² 552€ ",
+        "thumbnail": "http://www.agencevauban.com/images/photo.gif",
+        "etatVisite": 0
     },
     {
-        "name": "trilogie3",
-        "lat": 47.251447,
-        "lon": 6.003000,
-        "agence": "Trilogie",
-        "dispo": "En attente dossier candidature",
-        "webLink": "http://trilogie.fr/location/appartement-2-pieces-besancon-15000/",
-        "description": "T3 62m² 643€ toutes charges comprises",
-        "thumbnail": "http://trilogie.fr/wp/wp-content/uploads/2020/06/25Y08100-4819-001-500x335.jpg",
-        "etatVisite": 3
+        "name": "laforet",
+        "lat": 47.249445,
+        "lon": 6.057652,
+        "agence": "La forêt",
+        "dispo": " ",
+        "webLink": "https://www.laforet.com/agence-immobiliere/besancon/louer/besancon/appartement-2-pieces-17881244",
+        "description": "T2 56m² 527€ ",
+        "thumbnail": "https://laforetbusiness.laforet-intranet.com/office9/laforet_besancon/catalog/images/pr_p/1/7/8/8/1/2/4/4/17881244a.jpg",
+        "etatVisite": 0
     },
     {
-        "name": "trilogie4",
-        "lat": 47.251789,
-        "lon": 6.003654,
-        "agence": "Trilogie",
-        "dispo": "En attente dossier candidature",
-        "webLink": "http://trilogie.fr/location/appartement-2-pieces-besancon-4106/",
-        "description": "T2 45m² 540€",
-        "thumbnail": "http://trilogie.fr/wp/wp-content/uploads/2020/06/25Y08100-4106-001.jpg",
-        "etatVisite": 3
+        "name": "Citya",
+        "lat": 47.259789,
+        "lon": 6.015928,
+        "agence": "Citya immobilier",
+        "dispo": " ",
+        "webLink": "https://www.citya.com/annonces/location/appartement/besancon-25000/GES08110023-76",
+        "description": "T3 61m² 680€ ",
+        "thumbnail": "https://www.citya.com/media/images/agences/biens/262/location/filigrane-IMG_2266-489772604065010118.webp",
+        "etatVisite": 0
     }
 ]}
