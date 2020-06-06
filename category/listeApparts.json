@@ -262,5 +262,38 @@
         "description": "T3 61m² 680€ ",
         "thumbnail": "https://www.citya.com/media/images/agences/biens/262/location/filigrane-IMG_2266-489772604065010118.webp",
         "etatVisite": 0
+    },
+    {
+        "name": "officeImmo",
+        "lat": 47.255807,
+        "lon": 6.032249,
+        "agence": "Office Immobilier",
+        "dispo": "En attente rappel",
+        "webLink": "http://office-immo.fr/bien/appartement/besancon/les-cras/4330",
+        "description": "T3 55m² 460€ 7eme étage",
+        "thumbnail": "http://office-immo.fr/img/bien/location/25Y28690-G101-001.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "officeImmo",
+        "lat": 47.249565,
+        "lon": 6.040415,
+        "agence": "Office Immobilier",
+        "dispo": "En attente rappel",
+        "webLink": "http://office-immo.fr/bien/appartement/besancon/chaprais/4571",
+        "description": "T2 55m² 490€",
+        "thumbnail": "http://office-immo.fr/img/bien/location/25Y28690-G137-001.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "officeImmo",
+        "lat": 47.255258,
+        "lon": 6.043810,
+        "agence": "Office Immobilier",
+        "dispo": "En attente rappel",
+        "webLink": "http://office-immo.fr/bien/appartement/besancon/quartier/4627",
+        "description": "T3 55m² 500€",
+        "thumbnail": "http://office-immo.fr/img/bien/location/25Y28690-G138-001.jpg",
+        "etatVisite": 3
     }
 ]}
