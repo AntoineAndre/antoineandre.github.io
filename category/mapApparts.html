@@ -23,6 +23,15 @@
             popupAnchor: [1, -34],
             shadowSize: [41, 41]
         });
+	   
+	var violetIcon = new L.Icon({
+            iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
 
         var redIcon = new L.Icon({
             iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
@@ -77,12 +86,19 @@
 		var marker = L.marker([json.appartements[i].lat, json.appartements[i].lon]).addTo(macarte);
 		if (json.appartements[i].etatVisite == 0){
                    marker.setIcon(redIcon);
+			//pas d'info de la part de l'agence
 		}else if (json.appartements[i].etatVisite == 1){
                    marker.setIcon(greenIcon);
+			//visité
 		}else if (json.appartements[i].etatVisite == 2){
                    marker.setIcon(blackIcon);
+			//pas louable
 		}else if (json.appartements[i].etatVisite == 3){
                    marker.setIcon(orangeIcon);
+			//en cours de traitement
+		}else if (json.appartements[i].etatVisite == 4){
+                   marker.setIcon(violetIcon);
+			//the chosen one
 		}
 		
                 marker.bindPopup(i);
