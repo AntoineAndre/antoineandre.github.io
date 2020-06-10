@@ -191,11 +191,11 @@
         "lat": 47.258645,
         "lon": 5.987619,
         "agence": "Trilogie",
-        "dispo": "En attente retour dossier candidature",
+        "dispo": "Dégats des eaux dans l'appartement...",
         "webLink": "http://trilogie.fr/location/appartement-3-pieces-besancon-8421/",
         "description": "T3 59 m² 592€ ",
         "thumbnail": "http://trilogie.fr/wp/wp-content/uploads/2020/06/25Y08100-8421-006-500x335.jpg",
-        "etatVisite": 3
+        "etatVisite": 2
     },
     {
         "name": "Sogeprim",
@@ -272,7 +272,7 @@
         "webLink": "https://www.citya.com/annonces/location/appartement/besancon-25000/GES06430010-76",
         "description": "T3 61m² 680€ ",
         "thumbnail": "https://www.citya.com/media/images/agences/biens/262/location/filigrane-IMG_2230-8474509222682791048.webp",
-        "etatVisite": 3
+        "etatVisite": 1
     },
     {
         "name": "officeImmo",
@@ -294,7 +294,7 @@
         "webLink": "http://office-immo.fr/bien/appartement/besancon/chaprais/4571",
         "description": "T2 55m² 490€",
         "thumbnail": "http://office-immo.fr/img/bien/location/25Y28690-G137-001.jpg",
-        "etatVisite": 3
+        "etatVisite": 1
     },
     {
         "name": "officeImmo",
@@ -305,6 +305,28 @@
         "webLink": "http://office-immo.fr/bien/appartement/besancon/quartier/4627",
         "description": "T3 55m² 500€",
         "thumbnail": "http://office-immo.fr/img/bien/location/25Y28690-G138-001.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "trilogie2",
+        "lat": 47.262878,
+        "lon": 6.027291,
+        "agence": "Trilogie",
+        "dispo": "Visite programmée le 15/06 15h30",
+        "webLink": "https://www.leboncoin.fr/locations/1795634594.htm/",
+        "description": "T3 59 m² 681€ ",
+        "thumbnail": "https://img2.leboncoin.fr/ad-image/88679e118d1ca7d1954fe0f178c9ded48092c2f4.jpg",
+        "etatVisite": 3
+    },
+    {
+        "name": "trilogie3",
+        "lat": 47.264518,
+        "lon": 6.027248,
+        "agence": "Trilogie",
+        "dispo": "Visite programmée le 15/06 à 15h30",
+        "webLink": "https://www.leboncoin.fr/locations/1759359680.htm/",
+        "description": "T3 62 m² 718€ ",
+        "thumbnail": "https://img7.leboncoin.fr/ad-image/e573e37b133844dabf5b6d315f01cef8f8407970.jpg",
         "etatVisite": 3
     }
 ]}
