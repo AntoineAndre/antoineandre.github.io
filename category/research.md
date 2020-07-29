@@ -4,6 +4,15 @@ title: Research subject
 category : Research
 ---
 
+<p class="message">
+<b>Open source 1D phase measurement on Matlab</b>
+</p>
+
+Open source code for single dimensionnal patterns phase measurement (and period estimation) is available on github.
+
+<a href="https://github.com/AntoineAndre/1D_phase_measurement">https://github.com/AntoineAndre/1D_phase_measurement</a>
+
+<img src = "https://raw.githubusercontent.com/AntoineAndre/1D_phase_measurement/master/figureExample.png">
 
 
 <p class="message">
