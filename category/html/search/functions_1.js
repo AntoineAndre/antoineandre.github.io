@@ -1,6 +1,0 @@
-var searchData=
-[
-  ['compute',['compute',['../class_vernier_1_1_fourier_transform.html#a94db44ab0c6c0c2b3fc6d7c2da1a1508',1,'Vernier::FourierTransform::compute(Eigen::ArrayXXcd &amp;in, Eigen::ArrayXXcd &amp;out)'],['../class_vernier_1_1_fourier_transform.html#a00f8a60835e406a9bc199faae0c0db47',1,'Vernier::FourierTransform::compute(Eigen::ArrayXcd &amp;in, Eigen::ArrayXcd &amp;out)'],['../class_vernier_1_1_least_squares_plane.html#a8ac03d73b7f14d56b6c2a0719ed49e26',1,'Vernier::LeastSquaresPlane::compute()'],['../class_vernier_1_1_periodic_pattern_detector.html#a64c20e3b314fafe76a81d5ad34e20dfa',1,'Vernier::PeriodicPatternDetector::compute(char *data, int rows, int cols)'],['../class_vernier_1_1_periodic_pattern_detector.html#ab2ca96bbe3dff67e344fd228289bf694',1,'Vernier::PeriodicPatternDetector::compute(Eigen::ArrayXXcd &amp;array)'],['../class_vernier_1_1_pattern_phase.html#a072cda0dcfa98f760197325fe0dfa39a',1,'Vernier::PatternPhase::compute()']]],
-  ['computefirst',['computeFirst',['../class_vernier_1_1_pattern_phase.html#a49c23184c549e1ee0d2b7bcbabc900c8',1,'Vernier::PatternPhase']]],
-  ['computeqrcode',['computeQRCode',['../class_vernier_1_1_pattern_phase.html#aec3496589104327d681e779513a02606',1,'Vernier::PatternPhase']]]
-];
