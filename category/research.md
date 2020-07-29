@@ -8,7 +8,7 @@ category : Research
 <b>Open source 1D phase measurement on Matlab</b>
 </p>
 
-Open source code for single dimensionnal patterns phase measurement (and period estimation) is available on github at the following link: <a href="https://github.com/AntoineAndre/1D_phase_measurement">https://github.com/AntoineAndre/1D_phase_measurement</a>
+Open source code for single dimensionnal patterns phase measurement (and period estimation) is available on github at the following link for Matlab implementation: <a href="https://github.com/AntoineAndre/1D_phase_measurement">https://github.com/AntoineAndre/1D_phase_measurement</a>
 
 <img src = "https://raw.githubusercontent.com/AntoineAndre/1D_phase_measurement/master/figureExample.png">
 
@@ -17,7 +17,11 @@ Open source code for single dimensionnal patterns phase measurement (and period 
 <b>Applications of the nanopositioning tool in research</b>
 </p>
 
-<dl>
+<dl>    
+    <dt> Microrobot characterisation </dt>
+    <dd> In many cases, soft and continuum robots represent an interesting alternative to articulated robots because they have the advantage of miniaturization capability, safer interactions with humans and often simpler fabrication and integration. However, it is usually considered that these benefits arise at the expense of accuracy and precision because of the soft or flexible limbs. </dd>
+    <dd> <img src="https://www.researchgate.net/profile/Redwan_Dahmouche/publication/340071100/figure/fig5/AS:875561979224081@1585761651811/Experimental-setup-showing-the-measurement-system-and-the-PCR-prototype-attached-to-an_W640.jpg"> </dd>
+    <dd><cite> Mauzé, B., Dahmouche, R., Laurent, G. J., André, A. N., Rougeot, P., Sandoz, P., & Clévy, C. (2020). Nanometer Precision With a Planar Parallel Continuum Robot. IEEE Robotics and Automation Letters, 5(3), 3806-3813. </cite></dd>
     <dt> Force sensor</dt>
     <dd> Force sensors are often required in order to work at the microscale, but existing ones rarely meet all expectations, particularly in terms of resolution, range, accuracy, or integration potential. This paper presents a novel microforce measurement method by vision, based on a twin-scale pattern fixed on a compliant structure.</dd>
     <dd> <img src="forceSensor.PNG"> </dd>
@@ -26,8 +30,6 @@ Open source code for single dimensionnal patterns phase measurement (and period 
     <dd> High positioning accuracy with micropositioning robots (MPRs) is required to successfully perform many complex tasks, such as microassembly, manipulation, and characterization of biological tissues and minimally invasive inspection and surgery. Despite the widespread use of high-resolution micro and nanopositioning robots, there is very little knowledge about the real positioning accuracy that can be obtained and what the main influential factors are.</dd>
     <dd> <img src="metrology.PNG"> </dd>
     <dd><cite> N. Tan, C. Clévy, G. J. Laurent, P. Sandoz, and N. Chaillet, “Accuracy Quantification and Improvement of Serial Micropositioning Robots for In-Plane Motions,” IEEE Transactions on robotics, vol. 31, no. 6, pp. 1497–1507, Dec. 2015.</cite> </dd>
-    <dt> Microrobot characterisation </dt>
-    <dd> In many cases, soft and continuum robots represent an interesting alternative to articulated robots because they have the advantage of miniaturization capability, safer interactions with humans and often simpler fabrication and integration. However, it is usually considered that these benefits arise at the expense of accuracy and precision because of the soft or flexible limbs. </dd>
     <dt> Biological study </dt>
     <dd> Position-referenced microscopy (PRM) is based on smart sample holders that integrate a position reference pattern (PRP) in their depth, allowing the determination of the lateral coordinates with respect to the sample-holder itself. Regions of interest can thus be retrieved easily after culture dish transfers from a cell incubator to the microscope stage. </dd>
     <dd> <img src="biology.PNG"> </dd>
