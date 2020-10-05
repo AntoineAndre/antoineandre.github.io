@@ -9,5 +9,16 @@
         "description": "T6 108.9 m² 1424€",
         "thumbnail": "http://office-immo.fr/img/bien/location/25Y28690-G106A-001.jpg",
         "etatVisite": 0
+    },
+    {
+        "name": "OfficeImmo2",
+        "lat": 47.258943, 
+        "lon": 6.037676,
+        "agence": "Office Immobilier",
+        "dispo": "Pas d'info sur la dispo",
+        "webLink": "http://office-immo.fr/bien/maison/besancon/cras/4935",
+        "description": "T6 110.4 m² 1424€",
+        "thumbnail": "https://v.seloger.com/s/width/800/visuels/1/l/u/o/1luoydszsngwxr7b7dklzse6hhb33ssztovavo58g.jpg",
+        "etatVisite": 0
     }
 ]}
