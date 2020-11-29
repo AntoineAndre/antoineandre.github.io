@@ -6,7 +6,7 @@ remote_theme: fongandrew/hydeout
 # Setup
 title:            Antoine N. André
 tagline:          'Antoine N. André'
-description:      'Second year Ph.D. student in computer-vision and nano-robotics at <a href="https://www.femto-st.fr/fr" target="_blank">Femto-St</a>.'
+description:      'Third year Ph.D. student in computer-vision and nano-robotics at <a href="https://www.femto-st.fr/fr" target="_blank">Femto-St</a>.'
 url:              https://antoineandre.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
