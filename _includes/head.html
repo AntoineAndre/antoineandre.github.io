@@ -58,8 +58,8 @@
               crossorigin=""></script>
       <script type="text/javascript">
           // On initialise la latitude et la longitude au centre du Kazakstan pour etre centré
-          var lat = 43.45;
-          var lon = 66.62;
+          var lat = 46.604167162931844;
+          var lon = 3.6694335937500004;
           var macarte = null;
    
           // Nous initialisons une liste de marqueurs
@@ -75,7 +75,7 @@
           // Fonction d'initialisation de la carte
           function initMap() {
           // Créer l'objet "macarte" et l'insèrer dans l'élément HTML qui a l'ID "map"
-          macarte = L.map('map').setView([lat, lon], 3.5);
+          macarte = L.map('map').setView([lat, lon], 5);
           // Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr
           L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
           // Il est toujours bien de laisser le lien vers la source des données
@@ -96,8 +96,8 @@
       </script>
       <style type="text/css">
           #map { /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
-              height: 500px;
-              width: 500px;
+              height: 20vw;
+              width: 50vw;
           }
       </style>
    
@@ -128,7 +128,7 @@
           // Fonction d'initialisation de la carte
           function initMap2() {
           // Créer l'objet "macarte" et l'insèrer dans l'élément HTML qui a l'ID "map"
-          macarte2 = L.map('map2').setView([lat, lon], 8);
+          macarte2 = L.map('map2').setView([lat, lon], 7);
           // Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr
           L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
           // Il est toujours bien de laisser le lien vers la source des données
@@ -149,8 +149,8 @@
       </script>
       <style type="text/css">
           #map2 { /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
-              height: 500px;
-              width: 500px;
+              height: 20vw;
+              width: 50vw;
           }
       </style>
       <title>Carte</title>
