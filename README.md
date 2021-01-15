@@ -1,5 +1,5 @@
+[![HitCount](http://hits.dwyl.com/AntoineAndre/antoineandre.github.io.svg)](http://hits.dwyl.com/AntoineAndre/antoineandre.github.io)
+
 # Antoine N. André website
 
 Website created with hyedout
-
-[![HitCount](http://hits.dwyl.com/AntoineAndre/ 1D_phase_measurement .svg)](http://hits.dwyl.com/AntoineAndre/ 1D_phase_measurement )
