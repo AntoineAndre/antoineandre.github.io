@@ -16,4 +16,4 @@ The goal of my Ph.D. is to develop this tool in a more mature way in order to di
 
 This work is supported by my thesis directors, Guillaume Laurent, Patrick Sandoz and Maxime Jacquot who give me necessary help to achieve presented goals of the thesis.
 
-<dd> <img src="profilePicture.jpg" style="width:0.5*screen.width;height:0.5*screen.height;"> </dd>
+<dd> <img src="profilePicture.jpg" width='512' height='512'> </dd>
