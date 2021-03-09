@@ -1,0 +1,150 @@
+I"<p class="message">
+<b> List of published articles </b>
+</p>
+
+<p>André, A. N., Sandoz, P., Mauzé, B., Jacquot, M., &amp; Laurent, G. J. (2020). Sensing one nanometer over ten centimeters: A microencoded target for visual in-plane position measurement. IEEE/ASME Transactions on Mechatronics, 25(3), 1193-1201.</p>
+<nav id="article-icon-links">
+    <a id="bib-link" class="icon" title="bib" aria-label="bib" href="">
+      <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 18" style="enable-background:new 0 0 32 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#131419;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:0.2;stroke-miterlimit:10;}
+	.st2{font-family:'CMUBright-SemiBold';}
+	.st3{font-size:18px;}
+</style>
+<path id="XMLID_2_" class="st0" d="M31.5,18h-31C0.2,18,0,17.8,0,17.5v-17C0,0.2,0.2,0,0.5,0h31C31.8,0,32,0.2,32,0.5v17
+	C32,17.8,31.8,18,31.5,18z" />
+<text id="XMLID_1_" transform="matrix(1 0 0 1 4.6792 15.0396)" class="st1 st2 st3">bib</text>
+</svg>
+
+</a>
+
+  <a id="mail-link" class="icon" title="mail" aria-label="Mail" href="https://doi.org/10.1109/TMECH.2020.2965211">
+ <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 18" style="enable-background:new 0 0 32 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#131419;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:0.2;stroke-miterlimit:10;}
+	.st2{font-family:'CMUBright-SemiBold';}
+	.st3{font-size:18px;}
+</style>
+<path id="XMLID_2_" class="st0" d="M31.5,18h-31C0.2,18,0,17.8,0,17.5v-17C0,0.2,0.2,0,0.5,0h31C31.8,0,32,0.2,32,0.5v17
+	C32,17.8,31.8,18,31.5,18z" />
+<text id="XMLID_1_" transform="matrix(1 0 0 1 4.6792 15.0395)" class="st1 st2 st3">doi</text>
+</svg>
+
+  </a>
+
+  <a id="pdf-link" class="icon" title="pdf" aria-label="pdf" href="https://antoineandre.github.io/category/tmech_hal.pdf">
+ <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 18" style="enable-background:new 0 0 32 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#131419;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'CMUBright-SemiBold';}
+	.st3{font-size:18px;}
+</style>
+<path id="XMLID_2_" class="st0" d="M31.5,18h-31C0.2,18,0,17.8,0,17.5v-17C0,0.2,0.2,0,0.5,0h31C31.8,0,32,0.2,32,0.5v17
+	C32,17.8,31.8,18,31.5,18z" />
+<text id="XMLID_1_" transform="matrix(1 0 0 1 3.4353 13.5867)" class="st1 st2 st3">pdf</text>
+</svg>
+
+  </a>
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+
+<p class="message">
+<b>Robust, precise and scalable: A phase-encoded pattern for visual X, Y, Θ positioning</b> 
+</p>
+<p>A. N. André, P. Sandoz, M. Jacquot and G. J. Laurent</p>
+
+<p>in 2020 International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS)</p>
+
+<p>doi : <a href="https://doi.org/10.1109/MARSS49294.2020.9307842">10.1109/MARSS49294.2020.9307842</a></p>
+
+<p>keywords : Computer-vision, Large range-to-resolution ratio, Phase-based measurements, Absolute positioning, nano-positioning</p>
+
+<p>Preprint is available <a href="https://antoineandre.github.io/category/MARSS_full_paper_ANDRE_HAL.pdf">here.</a></p>
+
+<p class="message">
+<b>Robust phase-based decoding for absolute (X,Y,Θ) positioning by vision</b> 
+</p>
+<p>A. N. André, P. Sandoz, B. Mauzé, M. Jacquot and G. J. Laurent</p>
+
+<p>in IEEE Transactions on Instrumentations and Measurement</p>
+
+<p>doi : <a href="https://doi.org/10.1109/TIM.2020.3009353">10.1109/TIM.2020.3009353</a></p>
+
+<p>keywords : computer vision, large range-to-resolution ratio, phase encoding, positioning, robustness</p>
+
+<p>Preprint is available <a href="https://antoineandre.github.io/category/TIM_HAL.pdf">here.</a></p>
+
+<p class="message">
+<b>Nanometer Precision with a Planar ParallelContinuum Robot</b> 
+</p>
+<p>B. Mauzé, R. Dahmouche, G. L. Laurent, A. N. André, P. Rougeot, P. Sandoz, C. Clévy</p>
+
+<p>in IEEE Robotics and Automation Letters</p>
+
+<p>doi : <a href="https://doi.org/10.1109/LRA.2020.2982360">10.1109/LRA.2020.2982360</a></p>
+
+<p>keywords : Soft Robot Applications, Micro/Nano Robots, Parallel Robots</p>
+
+<p>Preprint is available <a href="https://antoineandre.github.io/category/Benjamin_RAL_HAL.pdf">here.</a></p>
+
+<p class="message">
+<b>Sensing One Nanometer over Ten Centimeters: A Micro-Encoded Target for Visual In-Plane Position Measurement</b> 
+</p>
+
+<p>André, A. N., Sandoz, P., Mauzé, B., Jacquot, M., &amp; Laurent, G. J. (2020). <em> IEEE/ASME Transactions on Mechatronics, 25(3), 1193-1201. </em></p>
+
+<p>doi: <a href="https://doi.org/10.1109/TMECH.2020.2965211">10.1109/TMECH.2020.2965211</a></p>
+
+<p>Preprint is available <a href="https://antoineandre.github.io/category/tmech_hal.pdf">here.</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1ZAkc0UsZg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><b>2020 IEEE/ASME International Conference on Advanced Intelligent Mechatronics</b></p>
+
+<p>This article has also been presented to the AIM conference and the presented video is available below:</p>
+
+<p><span id="Clevy2019insitu">C. Clévy <i>et al.</i>, “In-situ Versatile Characterization of Carbon NanoTubes using Nanorobotics,” in <i>Proc. of the IEEE Int. Conf. on Manipulation, Automation and Robotics at Small Scales (MARSS)</i>, 2019, pp. 1–6.</span>
+&lt;/div&gt;</p>
+
+<p><button class="btn btn-primary" onclick="toggleBibtexClevy2019insitu()">bib</button></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="http://doi.org/10.1109/MARSS.2019.8860970"&gt;&lt;input class="btn btn-primary" type="button" value="doi" /&gt;&lt;/a&gt;
+</code></pre></div></div>
+
+<p><a href="/assets/papers/Clevy2019insitu.pdf"><input class="btn btn-primary" type="button" value="pdf" /></a></p>
+
+<div id="aClevy2019insitu" style="display: none;">
+<pre>@inproceedings{Clevy2019insitu,
+  year = {2019},
+  title = {In-situ Versatile Characterization of Carbon NanoTubes using Nanorobotics},
+  author = {Clévy, Cédric and Sauvet, Bruno and Rauch, Jean-Yves and Lehmann, Olivier and Marionnet, François and Lutz, Philippe and Beccacece, Lorenzo and Xavier, Stéphane and Aubry, Raphael and Ziaei, Afshin and Prévot, Claude and Laurent, Guillaume J.},
+  pages = {1 - 6},
+  booktitle = {Proc. of the IEEE Int. Conf. on Manipulation, Automation and Robotics at Small Scales (MARSS)},
+  doi = {10.1109/MARSS.2019.8860970},
+  groups = {ACTI, Microrobots Design and Modelling}
+}
+</pre>
+</div>
+<script>
+function toggleBibtexClevy2019insitu(parameter) {
+    var x= document.getElementById('aClevy2019insitu');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
+<p>&lt;/li&gt;</p>
+<li><div class="text-justify">
+</div></li>
+:ET

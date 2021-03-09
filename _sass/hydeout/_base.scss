@@ -87,9 +87,10 @@ input[type="text"], input[type="email"], input[type="search"], input[type="submi
 
 button, input[type="submit"] {
   cursor: pointer;
-  background: transparent;
+  background: #131419;
   border-color: $border-color;
-  color: $link-color;
+  color: #ffffff;
+  font-weight: bold;
   transition: color 0.6s ease-in-out,
               border-color 0.6s ease-in-out,
               background 0.6s ease-in-out;
