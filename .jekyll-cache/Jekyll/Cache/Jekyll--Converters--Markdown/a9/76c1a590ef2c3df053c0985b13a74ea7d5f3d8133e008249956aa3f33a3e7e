@@ -1,0 +1,6 @@
+I"k<body onload="initMap();initMap2();">
+<div id="map"></div>
+<br /><br />
+<div id="map2"></div>
+</body>
+:ET
