@@ -1,0 +1,19 @@
+I"<!-- <body onload="initMap();initMap2();">
+  <table>
+      <tr>
+          <td>Europe</td>
+          <td>Asia</td>
+      </tr>
+      <tr>
+        <td><div id="map">
+            <!-- Ici s'affichera la carte -->
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        &lt;/div&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div id="map2"&gt;
+        &lt;!-- Ici s'affichera la carte --&gt;
+        &lt;/div&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre></div></div>
+<p>&lt;/body&gt; –&gt;</p>
+:ET
