@@ -7,12 +7,6 @@
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://antoineandre.github.io/about.html</loc>
-    <lastmod>2020-02-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antoineandre.github.io/category/research.html</loc>
     <lastmod>2020-02-20</lastmod>
     <changefreq>daily</changefreq>

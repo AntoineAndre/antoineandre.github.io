@@ -4,13 +4,41 @@ title: Research subject
 category : Research
 ---
 
+
+<p class="message">
+<b> Ph.D subject</b>
+</p>
+
+Current research focuses on the __pose measurement with nanometric resolution of periodic patterns__ with the help of computer vision. 
+
+This research lead to the following achievements in pose measurement in the micro-robotic field:
+
+- Creation of a `c++` tool to measure the in-plane pose of periodic patterns
+> Available to download <a href="https://projects.femto-st.fr/vernier/en/"> here</a> as a precompiled `.dll`
+
+- High resolution and large range of measure
+> 1 nanometer resolution over 10 cm range <br/><br/>
+> 1 µrad. resolution over 2π rad.
+
+- Great robustness of the measure
+> To noise, blur, defocus, uneven lighting, occlusion etc.
+
+- Variety of applications in pose measurement
+
+- Extension to a 6-DoF measure (work in progress)
+
+
+
 <p class="message">
 <b>Open source 1D phase measurement on Matlab</b>
 </p>
 
+To get a glimpse on the process of pose measurement, 1D version of the Vernier library is open source.
+
 Open source code for single dimensionnal patterns phase measurement (and period estimation) is available on github at the following link for Matlab implementation: <a href="https://github.com/AntoineAndre/1D_phase_measurement">https://github.com/AntoineAndre/1D_phase_measurement</a>
 
 <img src = "https://raw.githubusercontent.com/AntoineAndre/1D_phase_measurement/master/figureExample.png">
+
 
 
 <p class="message">
@@ -19,7 +47,7 @@ Open source code for single dimensionnal patterns phase measurement (and period 
 
 <dl>    
     <dt> Microrobot characterisation </dt>
-    <dd> In many cases, soft and continuum robots represent an interesting alternative to articulated robots because they have the advantage of miniaturization capability, safer interactions with humans and often simpler fabrication and integration. However, it is usually considered that these benefits arise at the expense of accuracy and precision because of the soft or flexible limbs. </dd>
+    <dd> </dd>
     <dd> <img src="https://www.researchgate.net/profile/Redwan_Dahmouche/publication/340071100/figure/fig5/AS:875561979224081@1585761651811/Experimental-setup-showing-the-measurement-system-and-the-PCR-prototype-attached-to-an_W640.jpg"> </dd>
     <dd><cite> Mauzé, B., Dahmouche, R., Laurent, G. J., André, A. N., Rougeot, P., Sandoz, P., & Clévy, C. (2020). Nanometer Precision With a Planar Parallel Continuum Robot. IEEE Robotics and Automation Letters, 5(3), 3806-3813. </cite></dd>
     <dt> Force sensor</dt>
