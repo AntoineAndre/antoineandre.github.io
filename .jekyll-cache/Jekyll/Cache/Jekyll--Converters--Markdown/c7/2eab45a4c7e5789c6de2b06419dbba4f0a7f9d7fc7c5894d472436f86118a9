@@ -1,16 +1,0 @@
-I"<!-- <body onload="initMap();initMap2();">
-  <table>
-      <tr>
-          <td>Europe</td>
-          <td>Asia</td>
-      </tr>
-      <tr>
-        <td><div id="map">
-            </div></td>
-        <td><div id="map2">
-            </div>
-        </td>
-      </tr>
-    </table>
-</body> -->
-:ET
