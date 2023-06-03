@@ -4,11 +4,6 @@
   weight = 10
 
 [[main]]
-  name = "解説論文"
-  url = "/presentations"
-  weight = 50
-
-[[main]]
   name = "CV"
   url = "https://antoineandre.github.io/curriculum/main_cv_en.pdf"
   weight = 100
@@ -20,3 +15,13 @@
   post = "v0.1.0"
   weight = 10
 
+[[research]]
+  name = "研究について"
+  weight = 10
+  identifier = "research"
+  url = "/docs/topics/"
+
+[[main]]
+  name = "研究"
+  url = "/docs/topics/highLights/"
+  weight = 10
