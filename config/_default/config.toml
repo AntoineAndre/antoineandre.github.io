@@ -15,10 +15,10 @@ defaultContentLanguage = "en"
 
 [languages]
   [languages.en]
-    title = 'Antoine André'
+    title = 'Home'
     weight = 1
   [languages.jp]
-    title = 'アントワン アンドレ'
+    title = 'ホム'
     weight = 1
 
 

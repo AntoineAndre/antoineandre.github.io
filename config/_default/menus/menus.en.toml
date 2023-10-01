@@ -15,13 +15,13 @@
   post = "v0.1.0"
   weight = 10
 
-[[research]]
-  name = "Research topics"
-  weight = 10
-  identifier = "research"
-  url = "/docs/topics/"
+#[[research]]
+#  name = "Research topics"
+#  weight = 10
+#  identifier = "research"
+#  url = "/docs/topics/"
 
-[[main]]
-  name = "Research"
-  url = "/docs/topics/highLights/"
-  weight = 10
+#[[main]]
+#  name = "Research"
+#  url = "/docs/topics/highLights/"
+#  weight = 10
