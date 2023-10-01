@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究について on ホム</title><link>https://antoineandre.github.io/jp/docs/topics/</link><description>Recent content in 研究について on ホム</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://antoineandre.github.io/jp/docs/topics/index.xml" rel="self" type="application/rss+xml"/><item><title>主な研究</title><link>https://antoineandre.github.io/jp/docs/topics/highlights/</link><pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate><guid>https://antoineandre.github.io/jp/docs/topics/highlights/</guid><description>ポスドク研究 #
+十二面体に分割された球面画像を基にした高解像度方位推定
+十二面体に分割された球面画像を基に、高解像度の方位推定を提供します。
+全方位画像の安定化のためのビジュアルジャイロスコープ 3 ステップパイプライン
+CVPR OmniCV 2023 ワークショップで発表予定です。
+博士号研究 #
+デシメートリック範囲でのナノメートリックポーズ推定のための符号化された周期パターン
+ポーズ推定プロセス：（$a$）取得した対象画像、（$b$）2D 離散フーリエ変換のモジュラス。円は対象画像の 2 つの方向の周波数ピークを示しています。ガウシアンフィルタと逆フーリエ変換の適用により、画像ピクセルフレームに対するラップされた位相マップ（$c_1$）と（$c_2$）が得られます。 （$d_1$）は、符号化セルと 2D LFSR シーケンスを識別するために必要なバイナリデコーディングを示しています。 （$d_2$）は、コーディングセルの単一の拡大ビューで、コーナーとコーディングラインおよび列を区別するための色付きの四角形が表示されます。その結果、（$e$）は符号化された対象内の現在の画像の正確な登録を示しています。
+サムネイルの前景強度画像から 2 値判定を行う。($a_{1}$) ホワイトノイズ、オクルージョン、可変光によって変化した画像のサムネイル。($a_{2}$)と($a_{3}$)の棒グラフは、3 つの行と列の各セットについて、コーディング強度（マゼンタ）と前景（黄）および背景（緑）の平均強度を比較し、横に決定した 2 値とを表示した。($b_{1}$) は、12$~ビットの定量化で許されるダイナミクスを示す。($b*{2}$) は、($a*{1}$) の赤い矩形内の符号化列の、$4096$ グレーレベル範囲に対する決定基準を示している。
+マイクロロボティクスへの応用
+これらの研究は、他の研究者（主に AS2M の研究部門）が、「非接触で広範囲に高精度の位置センサーを埋め込む必要がある」と考え、実施したものです。</description></item><item><title>ソフトウェア</title><link>https://antoineandre.github.io/jp/docs/topics/softwares/</link><pubDate>Tue, 13 Oct 2020 15:21:01 +0200</pubDate><guid>https://antoineandre.github.io/jp/docs/topics/softwares/</guid><description>Vernier Library #
+Github リポジトリへのリンク
+Vernier Library は、亜ピクセル解像度でキャリブレーション済みパターンの姿勢測定を行うためのオープンソースの C++ライブラリです。
+このライブラリは、検出とレンダリングのためのクラスのコレクションを提供しており、さまざまな種類のキャリブレーション済みパターン（周期的パターン、メガレナパターン、QR コードライクなパターン、ビットマップパターン）を扱います。
+LibPeR #
+Github リポジトリへのリンク
+LibPeR Library は、大きな視野角カメラを扱うためのオープンソースの C++ライブラリであり、ビジュアルサーボやビジュアルアライメントのコンテキストに適用されます。</description></item><item><title>指導・監督</title><link>https://antoineandre.github.io/jp/docs/topics/teaching/</link><pubDate>Mon, 16 Nov 2020 13:59:39 +0100</pubDate><guid>https://antoineandre.github.io/jp/docs/topics/teaching/</guid><description>コンピュータビジョン実践コース（2018 年〜2021 年） #
+この教育は、工学部最終年の Master 2 ENSMM の学生に対して行われ、教育の 3 年間にわたって合計 108 時間の授業が行われました。
+実践コースの目標 #
+3 つの個別のコース（それぞれ 4 時間）で、実際のケースに応用されるコンピュータビジョンの基礎を教える コースには以下のトピックが含まれます： カメラキャリブレーション ホモグラフィと画像のパッチング 三角測量問題を伴うステレオビジョン コースには、パノラマ写真、フォトグラメトリ、RANSAC、動きからの構造など、コンピュータビジョンによって可能になる様々な応用例が含まれており、学生にコンピュータビジョンの可能性を一部把握させます。 これらのコースは Nicolas Andreff と共同で準備されました。
+リソース #
+実践コース pdf
+なお、このドキュメントはフランス語で提供されています
+ホモグラフィリポジトリの追加リソース AntoineAndre/aruco_video_homography
+研究における最終年度の指導プロジェクト（2019 年 10 月-2020 年 1 月） #
+ENSMM の最終年度の学生は、6 か月間の研究プロジェクトを実施する必要があります。提案されたプロジェクトは、時計の運動の誤差を研究し、高分解能で時計や時計のキャリブレーションにより優れた計測を提供することでした。
+このプロジェクトでは、予備的な結果として基本的な時計の針の動きを研究しました。これには、高速カメラを使用して、周期的なパターンを含む HP コード（高精度コードフィジュアルマーカー）を撮影し、針の変化の高分解能な測定値を提供しました。
+このプロジェクトは、Raphaël Joly と Lucas Girerd によって実施されました。
+マイクロコントローラの実践的な講義 #
+Master 1 ENSMM の学生（エンジニアリングスクールの 2 年目）に対して、合計 20 時間の講義が行われました。
+実践的な講義の目的は、PIC ファミリー（PIC16F）のマイクロコントローラを操作および制御する方法を教えることです。</description></item></channel></rss>

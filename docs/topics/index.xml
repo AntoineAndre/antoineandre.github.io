@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research topics on Home</title><link>https://antoineandre.github.io/docs/topics/</link><description>Recent content in Research topics on Home</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://antoineandre.github.io/docs/topics/index.xml" rel="self" type="application/rss+xml"/><item><title>Research highlights</title><link>https://antoineandre.github.io/docs/topics/highlights/</link><pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate><guid>https://antoineandre.github.io/docs/topics/highlights/</guid><description>Post-doctoral research #
+Direct Visual Alignment from Spherical Images
+Provide a high resolution orientation estimation based on omnidirectional images mapped on a subdivided icosahedron.
+Visual Gyroscope 3-step pipeline for omnidirectional images stabilization
+To be presented in CVPR OmniCV 2023 Workshop
+Ph.D. research #
+Encoded Periodic pattern for nanometric pose estimation on decimetric range
+Pose estimation process, ($a$) acquired target image, ($b$) Modulus of the 2D discrete Fourier transform. Circles exhibit the two frequency peaks of the two directions of the target image.</description></item><item><title>Softwares</title><link>https://antoineandre.github.io/docs/topics/softwares/</link><pubDate>Tue, 13 Oct 2020 15:21:01 +0200</pubDate><guid>https://antoineandre.github.io/docs/topics/softwares/</guid><description>Vernier Library #
+Link to Github repository
+The Vernier Library is an open-source C++ library for pose measurement of calibrated patterns with subpixel resolutions.
+The library gathers a collection of classes for detection and rendering different kind of calibrated patterns (periodic patterns, megarena patterns, QR-code-like and bitmap patterns).
+LibPeR #
+Link to Github repository
+LibPeR Library is an open-source C++ library for handling large field-of-view cameras applied to visual servoing and visual alignment contexts.</description></item><item><title>Teaching and supervision</title><link>https://antoineandre.github.io/docs/topics/teaching/</link><pubDate>Mon, 16 Nov 2020 13:59:39 +0100</pubDate><guid>https://antoineandre.github.io/docs/topics/teaching/</guid><description>Computer vision practical courses (2018 - 2021) #
+Courses given to Master 2 ENSMM students (final year of engineering school), for a total of 108 hours along the three years of teaching.
+Practical courses goals #
+Teach the basics of computer vision theory applied to practical cases with 3 separate courses (4h each) The courses include the following topics : Camera calibration Homography and patching an image in an other Stereo vision with a triangulation problem Courses contains some classic examples of computed vision applications such as panoramic photography, photogrammetry, RANSAC, structure from motion etc.</description></item></channel></rss>
