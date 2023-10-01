@@ -8,30 +8,24 @@ on:
 
 jobs:
   build:
-    name: "Build: ${{ matrix.os }}"
-    runs-on: ${{ matrix.os }}
-    timeout-minutes: 3
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-        node-version: [18.x, 20.x]
+        node-version: [16]
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup node@${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+      #   - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
           node-version: ${{ matrix.node-version }}
+          registry-url: https://registry.npmjs.org
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install dependencies 📦️
+        run: npm install
 
-      - name: Run linters
-        run: npm run lint --if-present
-
-      - name: Build site
+      - name: build the website
         run: npm run build
 
       - name: Deploy
@@ -40,14 +34,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
-        # - name: Deploy 🚀
-        #   uses: JamesIves/github-pages-deploy-action@4.1.4
-        #   with:
-        #     branch: gh-pages
-        #     folder: public
-        #     clean: true
-        #     single-commit: true
 
     #   - name: Cache Hugo resources
     #     uses: actions/cache@v2
@@ -88,38 +74,3 @@ jobs:
     #       folder: public
     #       clean: true
     #       single-commit: true
-# name: Hyas CI
-
-# on:
-#   push:
-#     branches: main
-#   pull_request:
-#     branches: main
-
-# jobs:
-#   build:
-#     name: "Build: ${{ matrix.os }}"
-#     runs-on: ${{ matrix.os }}
-#     timeout-minutes: 3
-#     strategy:
-#       matrix:
-#         os: [ubuntu-latest, windows-latest, macos-latest]
-#         node-version: [18.x, 20.x]
-
-#     steps:
-#     - name: Checkout
-#       uses: actions/checkout@v3
-
-#     - name: Setup node@${{ matrix.node-version }}
-#       uses: actions/setup-node@v3
-#       with:
-#         node-version: ${{ matrix.node-version }}
-
-#     - name: Install dependencies
-#       run: npm ci
-
-#     - name: Run linters
-#       run: npm run lint --if-present
-
-#     - name: Build site
-#       run: npm run build
