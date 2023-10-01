@@ -9,6 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16]
 
     steps:
       #   - uses: actions/checkout@v2
@@ -16,18 +19,14 @@ jobs:
         with:
           submodules: true # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+          node-version: ${{ matrix.node-version }}
+          registry-url: https://registry.npmjs.org
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "latest"
-          # extended: true
+      - name: Install dependencies 📦️
+        run: npm install
 
-      - name: Clean
-        run: hugo mod clean --all
-
-      - name: Build
-        run: hugo --minify --gc
+      - name: build the website
+        run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
