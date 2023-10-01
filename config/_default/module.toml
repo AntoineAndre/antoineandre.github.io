@@ -1,51 +1,30 @@
-[[mounts]]
-  source = "config/_default/hyas"
-  target = "data"
+[hugoVersion]
+  extended = true
+  min = "0.80.0"
+  max = ""
 
 [[mounts]]
-  source = "node_modules/@hyas/core/assets"
-  target = "assets"
-
-[[mounts]]
-  source = "node_modules/@hyas/core/layouts"
-  target = "layouts"
-
-[[mounts]]
-  source = "node_modules/@hyas/seo/layouts"
-  target = "layouts"
-
-[[mounts]]
-  source = "node_modules/@hyas/images/assets"
-  target = "assets"
-  excludeFiles = "/scss/**.scss"
-
-[[mounts]]
-  source = "node_modules/@hyas/images/layouts"
-  target = "layouts"
-
-[[mounts]]
-  source = "node_modules/@hyas/doks-core/archetypes"
+  source = "node_modules/@hyas/doks/archetypes"
   target = "archetypes"
 
 [[mounts]]
-  source = "node_modules/@hyas/doks-core/assets"
+  source = "node_modules/@hyas/doks/assets"
   target = "assets"
-  excludeFiles = ["scss/common/_variables-custom.scss", "scss/common/_custom.scss"]
+
+#  [[mounts]]
+#    source = "node_modules/@hyas/doks/content"
+#    target = "content"
 
 [[mounts]]
-  source = "node_modules/@hyas/doks-core/data"
+  source = "node_modules/@hyas/doks/data"
   target = "data"
 
 [[mounts]]
-  source = "node_modules/@hyas/doks-core/i18n"
-  target = "i18n"
-
-[[mounts]]
-  source = "node_modules/@hyas/doks-core/layouts"
+  source = "node_modules/@hyas/doks/layouts"
   target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/doks-core/static"
+  source = "node_modules/@hyas/doks/static"
   target = "static"
 
 [[mounts]]
@@ -61,23 +40,19 @@
   target = "assets/js/vendor/mermaid"
 
 [[mounts]]
-  source = "node_modules/@tabler/icons/icons"
-  target = "assets/svgs/tabler-icons"
-
-[[mounts]]
-  source = "assets/svgs"
-  target = "assets/svgs"
-
-[[mounts]]
-  source = "node_modules/@hyas/inline-svg/layouts"
-  target = "layouts"
-
-[[mounts]]
-  source = "themes/my-doks-theme/assets" 
+  source = "assets"
   target = "assets"
 
 [[mounts]]
-  source = "themes/my-doks-theme/layouts"
+  source = "static"
+  target = "static"
+
+#  [[mounts]]
+#    source = "content"
+#    target = "content"
+
+[[mounts]]
+  source = "layouts"
   target = "layouts"
 
 [[mounts]]
@@ -85,25 +60,9 @@
   target = "archetypes"
 
 [[mounts]]
-  source = "assets"
-  target = "assets"
-
-[[mounts]]
-  source = "content"
-  target = "content"
-
-[[mounts]]
   source = "data"
   target = "data"
 
 [[mounts]]
-  source = "i18n"
-  target = "i18n"
-
-[[mounts]]
-  source = "layouts"
+  source = "node_modules/@hyas/images/layouts"
   target = "layouts"
-
-[[mounts]]
-  source = "static"
-  target = "static"

@@ -1,0 +1,236 @@
+{{ define "main" }} {{ if .Site.IsMultiLingual }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-14 text-center">
+      <h1 class="mt-0">{{ .Title }}</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }} {{ define "sidebar-prefooter" }} {{ if eq
+.Site.Language.Lang "jp" }}
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-left">
+      <div class="col-lg-9">
+        <h2 class="h4">Short bio</h2>
+        <ul>
+          <li>
+            May 2023 - : AIST-CNRSロボット工学連携研究ラボのポスドク研究員
+          </li>
+          <li>
+            May 2022 - May 2023 : JSPS
+            AIST-CNRSロボット工学連携研究ラボの外国人特別研究員
+          </li>
+          <li>Dec. 2021 - Apr. 2022 : MIS UPJVのポスドク研究員</li>
+          <li>
+            Oct. 2018 - Oct. 2021 : Ph.D. student at AS2M department of FEMTO-ST
+            Institute
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">研究キーワード</h2>
+        <ul>
+          <li>コンピュータビジョン</li>
+          <li>全方位ビジョン</li>
+          <li>ミクロとマクロのロボティクス</li>
+          <li>３次元計測, 視覚誘導</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-left">
+    <div class="col-md-12 col-lg-10 col-xl-8">
+      <div class="blog-header">
+        <h2>ニュース</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center text-left">
+      <div class="col-lg-9">
+        <article>
+          <ul>
+            <li>
+              2023年09月05日: <b>CNRS-AIST JRLの博士研究員として勤務を開始</b>,
+              つくば, 日本
+            </li>
+            <li>
+              2023年12月04日:
+              <b
+                >Visual Gyroscope: Deep
+                Learning特徴と直接アライメントの組み合わせによるパノラマの安定化</b
+              >
+              がCVPR OmniCV 2023ワークショップの発表に採択されました
+            </li>
+            <li>
+              2023年03月02日:
+              <b>26e Journée Francophone de la Recherche</b>でポスター発表,
+              東京, 日本
+            </li>
+            <li>
+              2023年01月18日: CNRS-AIST JRLでの博士研究員としての研究活動の発表,
+              CNRSのディレクター訪問, つくば, 日本
+            </li>
+            <li>
+              2022年11月21日:
+              <b
+                >高精度基準マーカーを用いたXYθ視覚計測に基づく流体チップおよびシングルファイバ圧縮試験の自動化</b
+              >
+              がT-ASEに採択されました
+            </li>
+            <li>
+              2022年11月10日:
+              <b
+                >Vision sphérique en robotique : représentation d'image et
+                applications</b
+              >, Journée inter-GdR ISIS et Robotique - Capteurs visuels
+              émergents pour la robotique, パリ, フランス
+            </li>
+            <li>
+              2022年06月20日: CVPR OmniCV 2022 Workshopにおいて,
+              <b>Photometric Visual Gyroscope for Full-View Spherical Camera</b
+              >のワークショップ発表, ニューオーリンズ, アメリカ
+            </li>
+            <li>
+              2022年05月08日: JSPS博士研究員フェローシップをCNRS-AIST JRLで開始
+            </li>
+            <li>
+              2022年04月19日:
+              <b>周期パターンのスペクトル解析による小スケールでの姿勢測定</b>
+              がIJCVに掲載されることが受理されました
+            </li>
+            <li>
+              2022年04月12日:
+              <b>Photometric Visual Gyroscope for Full-View Spherical Camera</b
+              >がCVPR OmniCV 2023ワークショップの発表に採択されました
+            </li>
+            <li>
+              2021年10月08日: FEMTO-ST研究所,
+              AS2M研究部門で博士論文を提出しました
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+{{ else }}
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-left">
+      <div class="col-lg-9">
+        <h2 class="h4">Short bio</h2>
+        <ul>
+          <li>May 2023 - : AIST postdoctoral researcher at CNRS-AIST JRL</li>
+          <li>
+            May 2022 - May 2023 : JSPS postdoctoral fellow at CNRS-AIST JRL
+          </li>
+          <li>Dec. 2021 - Apr. 2022 : postdoctoral researcher at MIS UPJV</li>
+          <li>
+            Oct. 2018 - Oct. 2021 : Ph.D. student at AS2M department of FEMTO-ST
+            Institute
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Research interests</h2>
+        <ul>
+          <li>Computer Vision</li>
+          <li>Omnidirectional cameras</li>
+          <li>Micro and Macro robotics</li>
+          <li>Pose Estimation and Visual Alignment</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-left">
+    <div class="col-md-12 col-lg-10 col-xl-8">
+      <div class="blog-header">
+        <h2>News</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center text-left">
+      <div class="col-lg-9">
+        <article>
+          <ul>
+            <li>
+              09/05/2023: Started working as a
+              <b>postdoctoral researcher for CNRS-AIST JRL</b>, Tsukuba, Japan
+            </li>
+            <li>
+              12/04/2023: Paper
+              <b
+                >Visual Gyroscope: Combination of Deep Learning Features and
+                Direct Alignment for Panoramic Stabilization</b
+              >
+              accepted for presentation in CVPR OmniCV 2023 workshop
+            </li>
+            <li>
+              03/02/2023: Poster presentation at the
+              <b>26e Journée Francophone de la Recherche</b> held at the Maison
+              Franco-Japonaise, Tokyo, Japan
+            </li>
+            <li>
+              18/01/2023: Presentations of the research activities led during
+              the postdoctoral researches at CNRS-AIST JRL for CNRS directors
+              visit, Tsukuba, Japan
+            </li>
+            <li>
+              21/11/2022: Paper
+              <b
+                >Automating Robotic Micro-Assembly of Fluidic Chips and Single
+                Fiber Compression Tests Based-on XYθ Visual Measurement With
+                High-Precision Fiducial Markers</b
+              >
+              accepted forpublication in T-ASE
+            </li>
+            <li>
+              10/11/2022:
+              <b
+                >Vision sphérique en robotique : représentation d'image et
+                applications</b
+              >, Journée inter-GdR ISIS et Robotique - Capteurs visuels
+              émergents pour la robotique, Paris, France
+            </li>
+            <li>
+              20/06/2022: Workshop presentation of the article
+              <b>Photometric Visual Gyroscope for Full-View Spherical Camera</b>
+              at the CVPR OmniCV 2022 Workshop, New-Orleans, USA
+            </li>
+            <li>
+              08/05/2022: Started the JSPS post-doctoral fellowship at CNRS-AIST
+              JRL
+            </li>
+            <li>
+              19/04/2022: Paper
+              <b
+                >Pose Measurement at Small Scale by Spectral Analysis of
+                Periodic Patterns</b
+              >
+              accepted to be published in IJCV
+            </li>
+            <li>
+              12/04/2022: Paper
+              <b>Photometric Visual Gyroscope for Full-View Spherical Camera</b>
+              accepted for presentation in CVPR OmniCV 2023 workshop
+            </li>
+            <li>
+              08/10/2021: Defended my Ph.D. thesis at FEMTO-ST Institute, AS2M
+              research department
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }} {{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">{{- .Content -}}</div>
+  </div>
+</section>
+{{ end }}

@@ -1,18 +1,14 @@
-#[languages]
 [en]
   languageName = "English"
-  contentDir = "content/en/"
+  contentDir = "content/en"
   weight = 10
   [en.params]
     languageISO = "EN"
     languageTag = "en-US"
-    footer = 'Built with Hyas Doks'
 
 [jp]
-  languageName = "日本語"
-  contentDir = "content/jp/"
-  weight = 10
-  [jp.params]
-    languageISO = "JP"
-    languageTag = "jp-JP"
-    footer = 'Brought to you by <a class="text-muted" href="https://gethyas.com/">Hyas</a>'
+languageName = "日本語"
+contentDir = "content/jp"
+weight = 10
+[jp.params]
+  languageISO = "JP"
