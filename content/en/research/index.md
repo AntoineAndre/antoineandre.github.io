@@ -17,6 +17,7 @@ toc: true
 
 ![omniExample](omni_vision_examples.png)
 
+- Visual Servoing
 - Omnidirectional cameras
 - High resolution pose estimation
 
