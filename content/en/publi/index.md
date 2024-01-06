@@ -35,7 +35,8 @@ toc: true
 
 **Non-First Author**
 
-9. Berenguel-Baeta, B., André, A., Caron, G., Bermudez-Cameo, J., & Guerrero, J. (2023, June). **Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment for Panoramic Stabilization**. In _IEEE Conference on Computer Vision and Pattern Recognition Workshop on Omnidirectional Computer Vision_.
+9. Quaccia, M., André, A., Yoshiyasu, Y., & Caron, G. (2024). **A Study on Learned Feature Maps Toward Direct Visual Servoing**. In _IEEE/SICE International Symposium on System Integration_.
+10. Berenguel-Baeta, B., André, A., Caron, G., Bermudez-Cameo, J., & Guerrero, J. (2023, June). **Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment for Panoramic Stabilization**. In _IEEE Conference on Computer Vision and Pattern Recognition Workshop on Omnidirectional Computer Vision_.
 
 ## Talks & Poster presentations
 
@@ -44,4 +45,4 @@ toc: true
 
 ## Others
 
-10. Ph.D. thesis: **Mesure visuelle robuste à grands rapports plage sur résolution de la pose 3D de mires périodiques codées : applications à la microrobotique**, defended on October 8th, 2021.
+11. Ph.D. thesis: **Mesure visuelle robuste à grands rapports plage sur résolution de la pose 3D de mires périodiques codées : applications à la microrobotique**, defended on October 8th, 2021.

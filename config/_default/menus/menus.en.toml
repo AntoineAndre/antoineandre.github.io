@@ -4,6 +4,11 @@
   weight = 10
 
 [[main]]
+  name = "Research"
+  url = "/research"
+  weight = 10
+
+[[main]]
   name = "CV"
   url = "https://antoineandre.github.io/curriculum/main_cv_en.pdf"
   weight = 100
