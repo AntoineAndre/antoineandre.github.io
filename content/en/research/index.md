@@ -14,8 +14,13 @@ toc: true
 ## Research interests
 
 - Computer vision for robotics
+
+![omniExample](omni_vision_examples.png)
+
 - Omnidirectional cameras
 - High resolution pose estimation
+
+![HighResPoseSensing](periodic_patterns_example.png)
 
 ## Supervision
 
