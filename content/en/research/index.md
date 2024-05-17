@@ -25,10 +25,10 @@ toc: true
 
 ## Supervision
 
-- Thomas Duvinage (engineer's degree, UTBM, autumn 2023), encapsulate spherical Visual Servoing in a multi-objective control framework
-- Matthieu Quaccia (engineer's degree, INSA Toulouse, spring 2023, co-supervision), implementation of feature maps for Direct Visual Servoing
-- Quentin Milot (engineer's degree, INSA Rennes, spring 2022, co-supervision), Adaptation for omnidirectional cameras of a SLAM (Simultaneous Localization and Mapping) algorithm
-- Valériia Leush (engineer's degree, ENSMM, spring 2021), Software development of a python tool, based on the Vernier library, to generate and measure periodic pattern poses
+- **Thomas Duvinage** (engineer's degree, UTBM, autumn 2023), encapsulate spherical Visual Servoing in a multi-objective control framework
+- **Matthieu Quaccia** (engineer's degree, INSA Toulouse, spring 2023, co-supervision), implementation of feature maps for Direct Visual Servoing
+- **Quentin Milot** (engineer's degree, INSA Rennes, spring 2022, co-supervision), Adaptation for omnidirectional cameras of a SLAM (Simultaneous Localization and Mapping) algorithm
+- **Valériia Leush** (engineer's degree, ENSMM, spring 2021), Software development of a python tool, based on the Vernier library, to generate and measure periodic pattern poses
 
 ## Projects participation
 
