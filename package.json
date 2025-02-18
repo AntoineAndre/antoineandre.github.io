@@ -69,6 +69,9 @@
     "hugo": "0.101.0"
   },
   "dependencies": {
-    "@thulite/doks-core": "^1.8.1"
+    "@thulite/doks-core": "^1.8.1",
+    "@thulite/images": "^3.3.0",
+    "@thulite/seo": "^2.4.1",
+    "thulite": "^2.5.0"
   }
 }
