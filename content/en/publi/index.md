@@ -23,21 +23,23 @@ toc: true
 
 **Non-First Author**
 
-5. Crombez, N., Buisson, J., André, A.N. & Caron, G. (2024) **Dual-Hemispherical Photometric Visual Servoing**. _IEEE Robotics and Automation Letters_, vol. 9, no. 5, pp. 4170-4177
-1. Cuenat, S., Andréoli, L., André, A. N., Sandoz, P., Laurent, G. J., Couturier, R. & Jacquot, M. (2022). **Fast autofocusing using tiny transformer networks for digital holographic microscopy**. _Optics Express_, 30(14), 24730-24746.
-2. Mauzé, B., Dahmouche, R., Laurent, G. J., André, A. N., Rougeot, P., Sandoz, P. & Clévy, C. (2020). **Nanometer precision with a planar parallel continuum robot**. _IEEE Robotics and Automation Letters_, 5(3), 3806-3813.
+5. Benallegue, M., Lorthioir, G., Dallard, A., Cisneros-Limón, R., Kumagai, I., Morisawa, M., ... & Kamon, M. (2025). **Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated Tasks in a Nursing Context**. _IEEE Robotics & Automation Magazine_.
+6. Crombez, N., Buisson, J., André, A.N. & Caron, G. (2024) **Dual-Hemispherical Photometric Visual Servoing**. _IEEE Robotics and Automation Letters_, vol. 9, no. 5, pp. 4170-4177
+7. Cuenat, S., Andréoli, L., André, A. N., Sandoz, P., Laurent, G. J., Couturier, R. & Jacquot, M. (2022). **Fast autofocusing using tiny transformer networks for digital holographic microscopy**. _Optics Express_, 30(14), 24730-24746.
+8. Mauzé, B., Dahmouche, R., Laurent, G. J., André, A. N., Rougeot, P., Sandoz, P. & Clévy, C. (2020). **Nanometer precision with a planar parallel continuum robot**. _IEEE Robotics and Automation Letters_, 5(3), 3806-3813.
 
 ## Peer-Reviewed Conference Proceedings
 
 **First Author**
 
-8. André, A. N. & Caron, G. (2022). **Photometric Visual Gyroscope for Full-View Spherical Camera**. In _Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition_ (pp. 5232-5235).
-9. André, A. N., Sandoz, P., Jacquot, M. & Laurent, G. J. (2020, July). **Robust, precise and scalable: A phase-encoded pattern for visual x, y, θ positioning**. In _2020 international conference on manipulation, automation and robotics at small scales (MARSS)_ (pp. 1-5). IEEE.
+9. André, A. N. & Caron, G. (2022). **Photometric Visual Gyroscope for Full-View Spherical Camera**. In _Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition_ (pp. 5232-5235).
+10. André, A. N., Sandoz, P., Jacquot, M. & Laurent, G. J. (2020, July). **Robust, precise and scalable: A phase-encoded pattern for visual x, y, θ positioning**. In _2020 international conference on manipulation, automation and robotics at small scales (MARSS)_ (pp. 1-5). IEEE.
 
 **Non-First Author**
 
-10. Quaccia, M., André, A., Yoshiyasu, Y. & Caron, G. (2024). **A Study on Learned Feature Maps Toward Direct Visual Servoing**. In _IEEE/SICE International Symposium on System Integration_.
-11. Berenguel-Baeta, B., André, A., Caron, G., Bermudez-Cameo, J. & Guerrero, J. (2023, June). **Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment for Panoramic Stabilization**. In _IEEE Conference on Computer Vision and Pattern Recognition Workshop on Omnidirectional Computer Vision_.
+11. Schulte, S., André, A. N., Crombez, N., & Caron, G. (2025, January). **On the impact of the camera field-of-view to Direct Visual Servoing robot trajectories when using the Photometric Gaussian Mixtures as dense feature**. In _2025 IEEE/SICE International Symposium on System Integration (SII)_ (pp. 1022-1027). IEEE.
+12. Quaccia, M., André, A. N., Yoshiyasu, Y., & Caron, G. (2024, January). **A Study on Learned Feature Maps Toward Direct Visual Servoing**. In _2024 IEEE/SICE International Symposium on System Integration (SII)_ (pp. 520-525). IEEE.
+13. Berenguel-Baeta, B., André, A., Caron, G., Bermudez-Cameo, J. & Guerrero, J. (2023, June). **Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment for Panoramic Stabilization**. In _IEEE Conference on Computer Vision and Pattern Recognition Workshop on Omnidirectional Computer Vision_.
 
 ## Talks & Poster presentations
 
@@ -46,4 +48,4 @@ toc: true
 
 ## Others
 
-12. Ph.D. thesis: **Mesure visuelle robuste à grands rapports plage sur résolution de la pose 3D de mires périodiques codées : applications à la microrobotique**, defended on October 8th, 2021.
+14. Ph.D. thesis: **Mesure visuelle robuste à grands rapports plage sur résolution de la pose 3D de mires périodiques codées : applications à la microrobotique**, defended on October 8th, 2021.
