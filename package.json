@@ -52,11 +52,11 @@
     "exec-bin": "^1.0.0",
     "flexsearch": "^0.7.21",
     "highlight.js": "^11.5",
-    "hugo-installer": "^3.1",
+    "hugo-installer": "^4.0.1",
     "instant.page": "^5.1",
     "katex": "^0.16",
     "lazysizes": "^5.3",
-    "markdownlint-cli2": "^0.4.0",
+    "markdownlint-cli2": "^0.17.2",
     "netlify-plugin-submit-sitemap": "^0.4.0",
     "postcss": "^8.4",
     "postcss-cli": "^10.0",
@@ -67,5 +67,8 @@
   },
   "otherDependencies": {
     "hugo": "0.101.0"
+  },
+  "dependencies": {
+    "@thulite/doks-core": "^1.8.1"
   }
 }
