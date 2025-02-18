@@ -23,6 +23,8 @@ toc: true
 
 ![HighResPoseSensing](periodic_patterns_example.png)
 
+---
+
 ## Supervision
 
 ### PhD students
@@ -46,6 +48,8 @@ toc: true
 ### Bachelor students
 
 - **Sinta Schulte** (bachelor's degree, KIT, summer 2024), Visual Servoing trajectory evaluation comparison using various FoV
+
+---
 
 ## Projects participation
 
