@@ -35,6 +35,7 @@ toc: true
 
 ### Master students
 
+- **Ferdinand Louapre** (engineer's degree, Mines de Paris, spring 2025, co-supervision), Hessian shaping for enhanced convergence domain Visual Servoing Schemes
 - **Damien Harlé** (engineer's degree, Rubika Valenciennes, summer 2024), user feedback enhancement with wide FoV cameras for robot teleoperation
 - **Gwendal Crequer** (engineer's degree, ENSTA Bretagne, spring 2024), robot masking for Spherical Visual Servoing using omnidirectional cameras
 - **Thomas Duvinage** (engineer's degree, UTBM, autumn 2023), encapsulate spherical Visual Servoing in a multi-objective control framework
@@ -48,8 +49,8 @@ toc: true
 
 ## Projects participation
 
-- CALL (ANR, 2025-2028)
-- Ant'noid (ANR, 2024-2028)
+- CALL (ANR, 2025-2028), dynamic object handover using full spherical visual perception and biomechanical modeling of humans
+- Ant'noid (ANR, 2024-2028), leveraging ants visual familiarities for humanoid robot navigation
 - BRIDGE SIGRoLe (NTT, 2023-2026), Self-Improving AI for seamless human-guided robot learning
 - Def-phi (AIST-ITH funding, 2024-2025), Phase based deformation estimation
 - DVS-Straight (AIST-ITH funding, 2021-2024), Direct Visual Servoing with optimal robot trajectories
