@@ -13,15 +13,19 @@ toc: true
 
 ## Research interests
 
-- Computer vision for robotics
-
 ![omniExample](omni_vision_examples.png)
 
+- Computer vision for robotics
 - Visual Servoing
 - Omnidirectional cameras
 - High resolution pose estimation
 
 ![HighResPoseSensing](periodic_patterns_example.png)
+
+## Open-source softwares
+
+- [LibPeR](https://github.com/PerceptionRobotique/libPeR_base): vision-based state estimation of robot and scene
+- [Vernier](https://github.com/vernierlib/vernier): pose measurement of calibrated patterns with subpixel resolutions
 
 ---
 
